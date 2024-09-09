@@ -91,7 +91,7 @@ Script_BeatGene:
 	show_medal_received_screen EVENT_BEAT_GENE
 	record_master_win $02
 	print_npc_text Text07a8
-	give_booster_packs BOOSTER_MYSTERY_FIGHTING_COLORLESS, BOOSTER_MYSTERY_FIGHTING_COLORLESS, NO_BOOSTER
+	give_booster_packs BOOSTER_MYSTERY_FIGHTING_COLORLESS, BOOSTER_MYSTERY_FIGHTING_COLORLESS, BOOSTER_LABORATORY_NEUTRAL, NO_BOOSTER
 	print_npc_text Text07a9
 	quit_script_fully
 
@@ -113,7 +113,7 @@ Script_LostToGene:
 
 .ows_e08f
 	print_npc_text Text07ae
-	give_booster_packs BOOSTER_MYSTERY_FIGHTING_COLORLESS, BOOSTER_MYSTERY_FIGHTING_COLORLESS, NO_BOOSTER
+	give_booster_packs BOOSTER_MYSTERY_FIGHTING_COLORLESS, BOOSTER_MYSTERY_FIGHTING_COLORLESS, BOOSTER_LABORATORY_NEUTRAL, NO_BOOSTER
 	print_npc_text Text07af
 	quit_script_fully
 

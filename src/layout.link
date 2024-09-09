@@ -80,7 +80,6 @@ ROMX $0b
 	"Effect Functions"
 ROMX $0c
 	"Decks"
-	"Cards"
 ROMX $0d
 	"Text 1"
 ROMX $0e
@@ -146,6 +145,8 @@ ROMX $2d
 	"Palettes1"
 ROMX $2e
 	"Palettes2"
+ROMX $2f
+	"Gfx 13"	
 ROMX $31
 	"Card Gfx 1"
 ROMX $32
@@ -174,6 +175,18 @@ ROMX $3e
 	"Audio 2"
 ROMX $3f
 	"Audio 3"
+ROMX $41
+	"Moved Text Offsets"
+ROMX $42
+	"Moved Cards"
+ROMX $43
+	"Custom Text 1"
+ROMX $44
+	"Custom Gfx"
+ROMX $45
+	"Custom Gfx2"	
+ROMX $46
+	"Effect Functions2"	
 WRAM0
 	"WRAM0"
 	"WRAM0 Duels 1"

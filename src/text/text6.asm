@@ -1001,7 +1001,7 @@ Tech2LegendaryCardsCongratsText:
 Tech3BoosterPackExplanationText:
 	text "When you defeat a Club Member,"
 	line "you'll receive a Booster Pack."
-	line "Each Booster Pack has 10 cards."
+	line "Each Booster Pack has 11 cards."
 	line "The cards differ depending on"
 	line "the Booster Pack you receive. "
 	line "The type of Booster Pack differs"

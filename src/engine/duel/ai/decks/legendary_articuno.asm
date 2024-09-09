@@ -32,19 +32,18 @@ AIActionTable_LegendaryArticuno:
 	ret
 
 .list_arena
-	db CHANSEY
+	db EXEGGCUTE
 	db LAPRAS
 	db DITTO
 	db SEEL
 	db ARTICUNO_LV35
-	db ARTICUNO_LV37
 	db $00
 
 .list_bench
 	db ARTICUNO_LV35
 	db SEEL
 	db LAPRAS
-	db CHANSEY
+	db EXEGGCUTE
 	db DITTO
 	db $00
 
@@ -54,13 +53,13 @@ AIActionTable_LegendaryArticuno:
 	db $00
 
 .list_energy
-	ai_energy SEEL,          3, +1
-	ai_energy DEWGONG,       4, +0
-	ai_energy LAPRAS,        3, +0
-	ai_energy ARTICUNO_LV35, 4, +1
-	ai_energy ARTICUNO_LV37, 3, +0
+	ai_energy SEEL,          2, +1
+	ai_energy DEWGONG,       3, +2
+	ai_energy EXEGGCUTE,        2, +0
+	ai_energy EXEGGUTOR, 3, +2
+	ai_energy ARTICUNO_LV37, 3, +3
 	ai_energy CHANSEY,       0, -8
-	ai_energy DITTO,         3, +0
+	ai_energy DITTO,         1, +0
 	db $00
 
 .list_prize

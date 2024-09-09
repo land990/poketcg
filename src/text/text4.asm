@@ -7,8 +7,6 @@ Text0405:
 	line "His Rock Crusher Deck is extremely"
 	line "strong against Lightning Pokémon,"
 	line "but it's weak against Grass Pokémon!"
-	line "I suggest you study the Deck from"
-	line "the Grass Medal Deck Machine."
 	line "Oh! Before I forget..."
 	line "Here's a Booster Pack for you!"
 	done
@@ -60,11 +58,7 @@ Text0409:
 	line "on his Pokémon and look out for"
 	line "Selfdestruct."
 	line "I would suggest using Fighting"
-	line "Pokémon such as Cubone and Rhyhorn"
-	line "to counter Isaac's deck."
-	line "The Cubone & Marowak Deck from"
-	line "the Rock Medal Deck Machine is"
-	line "probably your best bet."
+	line "Pokémon to counter Isaac's deck."
 	line "I hope you find many Fighting"
 	line "Pokémon in this Booster Pack!"
 	done
@@ -341,16 +335,16 @@ Text041c:
 Gal1WantToTrade1Text:
 	text "We don't use Fire Pokémon cards"
 	line "here at the Water Club."
-	line "I have this rare Arcanine, but"
-	line "I prefer Lapras."
-	line "If you own a Lapras, would you"
-	line "mind trading it for my Arcanine?"
+	line "I have this rare Camerupt, but"
+	line "I prefer Chewtle."
+	line "If you own a Chewtle, would you"
+	line "mind trading it for my Camerupt?"
 	done
 
 Gal1WantToTrade2Text:
 	text "Hi! We meet again!"
 	line "Have you decided to trade your"
-	line "Lapras for my rare Arcanine?"
+	line "Chewtle for my rare Camerupt?"
 	done
 
 Gal1WouldYouLikeToTradeText:
@@ -367,14 +361,14 @@ Gal1DeclinedTradeText:
 
 Gal1DontOwnCardText:
 	text "Hey! What are you trying to pull?"
-	line "You don't have a Lapras!?!"
-	line "Come see me when you get a Lapras."
+	line "You don't have a Chewtle!?!"
+	line "Come see me when you get a Chewtle."
 	done
 
 Gal1CardInDeckText:
-	text "OK! Let's trade your Lapras"
-	line "for my Arcanine..."
-	line "Oh! I see your Lapras"
+	text "OK! Let's trade your Chewtle"
+	line "for my Camerupt..."
+	line "Oh! I see your Chewtle"
 	line "is included in your deck."
 	line "I'd feel guilty taking a card"
 	line "from your deck."
@@ -384,25 +378,25 @@ Gal1CardInDeckText:
 
 Gal1LetsTradeText:
 	text "OK then, let's trade your"
-	line "Lapras for my Arcanine."
+	line "Chewtle for my Camerupt."
 	done
 
 Gal1TradeCompleteText:
-	text "<RAMNAME> traded a Lapras"
-	line "for an Arcanine!"
+	text "<RAMNAME> traded a Chewtle"
+	line "for an Camerupt!"
 	done
 
 Gal1ThanksText:
 	text "Thanks, <RAMNAME>!"
 	line "I'll take good care"
-	line "of this Lapras."
+	line "of this Chewtle."
 	done
 
 Gal1AfterTradeText:
 	text "Hey! You're the one who"
-	line "gave me your Lapras!"
+	line "gave me your Chewtle!"
 	line "I'm taking good care of"
-	line "your Lapras."
+	line "your Chewtle."
 	done
 
 Text0427:

@@ -547,7 +547,7 @@ Text06d8:
 	line "Huh? You must be <RAMNAME>."
 	line "Mitch told me all about you."
 	line "Beating you will be much better"
-	line "than losing to the girls!"
+	line "than losing to those girls!"
 	done
 
 Text06d9:
@@ -653,19 +653,19 @@ Text06ea:
 	done
 
 Text06eb:
-	text "Oddish, Oddish,"
-	line "Roly-Poly Oddish!"
-	line "Oddish is so Roly-Poly "
+	text "Applin, Applin,"
+	line "Roly-Poly Applin!"
+	line "Applin is so Roly-Poly "
 	line "and so cute!"
-	line "I'll give you this Vileplume"
-	line "if you give me an Oddish!"
+	line "I'll give you this Appletun"
+	line "if you give me an Applin!"
 	done
 
 Text06ec:
 	text "Hi!"
-	line "Did you bring me an Oddish?"
-	line "Will you trade your Oddish"
-	line "for my Vileplume?"
+	line "Did you bring me an Applin?"
+	line "Will you trade your Applin"
+	line "for my Appletun?"
 	done
 
 Text06ed:
@@ -673,32 +673,32 @@ Text06ed:
 	done
 
 Text06ee:
-	text "I want an Oddish!"
-	line "A Roly-Poly Oddish!"
+	text "I want an Applin!"
+	line "A Roly-Poly Applin!"
 	done
 
 Text06ef:
 	text "Excuse me..."
-	line "Do you have an Oddish..."
+	line "Do you have an Applin..."
 	done
 
 Text06f0:
 	text "Then let's trade!"
-	line "Vileplume for an Oddish!"
+	line "Appletun for an Applin!"
 	line "Oops!"
-	line "Your Oddish is in your Deck!"
+	line "Your Applin is in your Deck!"
 	line "I can't take that!"
 	line "Please trade me some other time."
 	done
 
 Text06f1:
 	text "OK then, let's trade!"
-	line "Vileplume for an Oddish."
+	line "Appletun for an Applin."
 	done
 
 Text06f2:
-	text "<RAMNAME> traded an Oddish"
-	line "for a Vileplume!"
+	text "<RAMNAME> traded an Applin"
+	line "for a Appletun!"
 	done
 
 Text06f3:
@@ -707,93 +707,93 @@ Text06f3:
 	done
 
 Text06f4:
-	text "Pika Pika"
-	line "Pika Pika Pikachu!"
-	line "Pikachu's cute, but I prefer"
-	line "Clefairy!"
-	line "I'll give you this Pikachu"
-	line "if you give me a Clefairy!"
+	text "Pin Pin"
+	line "Pin Pin Pinkurchin!"
+	line "Pinkurchin's cute, but I prefer"
+	line "Togepi!"
+	line "I'll give you this Pinkurchin"
+	line "if you give me a Togepi!"
 	done
 
 Text06f5:
 	text "Hi!"
-	line "Did you bring me a Clefairy?"
-	line "Would you trade your Clefairy"
-	line "for my Pikachu?"
+	line "Did you bring me a Togepi?"
+	line "Would you trade your Togepi"
+	line "for my Pinkurchin?"
 	done
 
 Text06f6:
-	text "I want a Clefairy!"
+	text "I want a Togepi!"
 	line "Fairy, fairy, fairy!"
 	done
 
 Text06f7:
 	text "Hi..."
-	line "Do you have a Clefairy..."
+	line "Do you have a Togepi..."
 	done
 
 Text06f8:
 	text "Then let's trade!"
-	line "Pikachu for a Clefairy!"
+	line "Pinkurchin for a Togepi!"
 	line "Oops!"
-	line "Your Clefairy is in your deck!"
+	line "Your Togepi is in your deck!"
 	line "I can't take that!"
 	line "Please trade me another time!"
 	done
 
 Text06f9:
 	text "OK then let's trade!"
-	line "Pikachu for Clefairy."
+	line "Pinkurchin for Togepi."
 	done
 
 Text06fa:
-	text "<RAMNAME> traded a Clefairy"
-	line "for a Pikachu!"
+	text "<RAMNAME> traded a Togepi"
+	line "for a Pinkurchin!"
 	done
 
 Text06fb:
-	text "Charizard! Charizard!"
-	line "Charizard, light my fire!"
-	line "Blastoise is cool,"
-	line "But I prefer Charizard!"
-	line "I'll give you this Blastoise"
-	line "if you give me a Charizard!"
+	text "Emboar! Emboar!"
+	line "Emboar, light my fire!"
+	line "Greninja is cool,"
+	line "But I prefer Emboar!"
+	line "I'll give you this Greninja"
+	line "if you give me a Emboar!"
 	done
 
 Text06fc:
 	text "Hi!"
-	line "Did you bring me a Charizard?"
-	line "Would you trade your Charizard"
-	line "for my Blastoise?"
+	line "Did you bring me a Emboar?"
+	line "Would you trade your Emboar"
+	line "for my Greninja?"
 	done
 
 Text06fd:
-	text "I want a Charizard!"
-	line "Charizard! Charizard!"
+	text "I want a Emboar!"
+	line "Emboar! Emboar!"
 	done
 
 Text06fe:
 	text "Excuse me..."
-	line "Do you have a Charizard..."
+	line "Do you have a Emboar..."
 	done
 
 Text06ff:
 	text "Then let's trade!"
-	line "Blastoise for a Charizard."
+	line "Greninja for a Emboar."
 	line "Oops!"
-	line "Your Charizard is in your Deck!"
+	line "Your Emboar is in your Deck!"
 	line "I can't take that."
 	line "Please trade me some other time!"
 	done
 
 Text0700:
 	text "OK then, let's trade!"
-	line "Blastoise for a Charizard!"
+	line "Greninja for a Emboar!"
 	done
 
 Text0701:
-	text "<RAMNAME> traded a Charizard"
-	line "for a Blastoise!"
+	text "<RAMNAME> traded a Emboar"
+	line "for a Greninja!"
 	done
 
 Text0702:
@@ -807,7 +807,7 @@ Text0703:
 	text "Only girls are allowed to join"
 	line "the Grass Club,"
 	line "But we're not accepting "
-	line "applications now, anyway. Sorry!"
+	line "applications now, Sorry!"
 	done
 
 Text0704:
@@ -1066,7 +1066,7 @@ Text0729:
 	line "heard the rumor that I'm looking"
 	line "for a Clefable..."
 	line "I'm thinking about trading"
-	line "my Surfing Pikachu for it."
+	line "my Surfing Pinkurchin for it."
 	line "Do you have a Clefable?"
 	done
 
@@ -1077,7 +1077,7 @@ Text072a:
 	line "By the way, I'm looking for a "
 	line "Clefable..."
 	line "I'm thinking about trading"
-	line "my Surfing Pikachu for it."
+	line "my Surfing Pinkurchin for it."
 	line "Do you have a Clefable?"
 	done
 
@@ -1115,7 +1115,7 @@ Text072f:
 
 Text0730:
 	text "<RAMNAME> traded a Clefable"
-	line "for a Surfing Pikachu!"
+	line "for a Surfing Pinkurchin!"
 	done
 
 Text0731:
@@ -1129,7 +1129,7 @@ Text0732:
 	line "heard that I was looking for"
 	line "a Ditto this time..."
 	line "I'm thinking about trading"
-	line "my Flying Pikachu for one."
+	line "my Flying Pinkurchin for one."
 	line "Do you have a Ditto?"
 	done
 
@@ -1140,7 +1140,7 @@ Text0733:
 	line "I'm looking for a Ditto"
 	line "this time..."
 	line "I'm thinking about trading"
-	line "my Flying Pikachu for one."
+	line "my Flying Pinkurchin for one."
 	line "Do you have a Ditto?"
 	done
 
@@ -1148,7 +1148,7 @@ Text0734:
 	text "Hmmm..."
 	line "I see you don't have a Ditto card."
 	line "I will only trade my"
-	line "Flying Pikachu for a Ditto."
+	line "Flying Pinkurchin for a Ditto."
 	line "Please trade with me"
 	line "some other time..."
 	done
@@ -1164,7 +1164,7 @@ Text0735:
 
 Text0736:
 	text "<RAMNAME> traded a Ditto"
-	line "for a Flying Pikachu!"
+	line "for a Flying Pinkurchin!"
 	done
 
 Text0737:
@@ -1177,7 +1177,7 @@ Text0738:
 	line "You're really current on the news!"
 	line "I'm looking for a Chansey this "
 	line "time! I'm thinking about trading"
-	line "my Surfing Pikachu for it."
+	line "my Surfing Pinkurchin for it."
 	line "This one has a different "
 	line "illustration than the last one."
 	line "Do you have a Chansey?"
@@ -1189,7 +1189,7 @@ Text0739:
 	line "Pokémon Trading Card Game?"
 	line "I'm looking for a Chansey"
 	line "this time! I'm thinking about "
-	line "trading my Surfing Pikachu for "
+	line "trading my Surfing Pinkurchin for "
 	line "one. This one has a different "
 	line "illustration than the last one."
 	line "Do you have a Chansey to trade?"
@@ -1213,7 +1213,7 @@ Text073b:
 
 Text073c:
 	text "<RAMNAME> traded a Chansey"
-	line "for a Surfing Pikachu!"
+	line "for a Surfing Pinkurchin!"
 	done
 
 Text073d:

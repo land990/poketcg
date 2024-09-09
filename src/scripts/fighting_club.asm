@@ -67,7 +67,7 @@ Script_BeatMitch:
 	show_medal_received_screen EVENT_BEAT_MITCH
 	record_master_win $01
 	print_npc_text Text0480
-	give_booster_packs BOOSTER_LABORATORY_NEUTRAL, BOOSTER_LABORATORY_NEUTRAL, NO_BOOSTER
+	give_booster_packs BOOSTER_LABORATORY_NEUTRAL, BOOSTER_LABORATORY_NEUTRAL, BOOSTER_LABORATORY_NEUTRAL, NO_BOOSTER
 	print_npc_text Text0481
 	quit_script_fully
 
@@ -89,7 +89,7 @@ Script_Mitch_AlreadyHaveMedal:
 
 Script_Mitch_GiveBoosters:
 	print_npc_text Text0486
-	give_booster_packs BOOSTER_LABORATORY_NEUTRAL, BOOSTER_LABORATORY_NEUTRAL, NO_BOOSTER
+	give_booster_packs BOOSTER_LABORATORY_NEUTRAL, BOOSTER_LABORATORY_NEUTRAL, BOOSTER_LABORATORY_NEUTRAL, NO_BOOSTER
 	print_npc_text Text0487
 	quit_script_fully
 

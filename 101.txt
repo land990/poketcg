@@ -1,0 +1,29 @@
+1.3:
+
+Important changes:
+Now the IA shoud use Potion and Super Potion as Intented
+ Mistakes:
+Fixed Starter Decks
+
+Descriptions:
+Fixed Shelmet Leech Life Description
+
+PKMN changes:
+Tyrunt Crunch Attack now Cost 2 Fighting Energies, deals 10 Dmg and his Strength Attack deals 40 instead of 30
+Clawitzer WaterPulse Attack now cost 1 Water Energy and 1 Colorless energy
+
+Imposter Oak now is a Rare Card (Diamond)
+Mr.Fuji now is a Common Card (Circle)
+Pokedex now is a Common Card (Circle)
+Full Heal now is a Common Card (Circle)
+Maintenance now is a Common Card (Circle)
+Gambler now is a Rare Card (Diamond)
+
+New Cards:
+Evolution:
+Magby, Magmar and Magmortar
+Laboratory:
+Ho-oh	
+
+New Sprites:
+-

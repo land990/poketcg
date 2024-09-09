@@ -1,0 +1,34 @@
+[CENTER][SIZE="7"][B]Pokemon TCG Generations[/B][/SIZE]
+[IMG]https://i.postimg.cc/cJ22RNYd/Generations.png[/IMG]
+[SIZE="4"]A Pokemon TCG Rom Hack[/SIZE][/CENTER]
+[SIZE="5"][COLOR="DarkOrange"][B]Overview[/B][/COLOR][/SIZE]
+Pokemon TCG Generations is a Romhack that completely changes the Cards of the Game by Adding Pokemon from almost all Generations, Changing Attacks, Attributes, Resistances, Weaknesses and Even Some Effects.
+
+This is my first Romhack, so I hope you enjoy it =D
+
+[SIZE="5"][COLOR="Teal"][B]Features[/B][/COLOR][/SIZE]
+•	All Cards have been replaced by Pokemon from other Generations, with Some Exceptions (Eevee, Ditto, Horsea, Seadra to name a few, this is due to effects of the Cards or are related to Pokemon introduced after those.)
+•	All the Pokemon Sprites were Replaced with Sprites made by me, Obviously Following the "Style" of the game.
+•	All Attacks have been changed in some way, either in name or by Effect. Cards in general are not intended to resemble their real-life counterparts, but rather attempt to be their own thing. (Also, what you can do with Attacks is quite limiting sometimes).
+•	Absolutely all the Cards in the Game can be obtained through the 4 booster packs and there is even a clear way to know which Booster each card is in. [IMG]https://i.postimg.cc/QtjV2r5s/poketcgs15.png[/IMG]
+
+[SIZE="5"][COLOR="RoyalBlue"][B]Screenshots[/B] [/COLOR][/SIZE]
+[IMG]https://i.postimg.cc/3Jxmy2k7/poketcgs.png[/IMG] [IMG]https://i.postimg.cc/76NJhLDf/poketcgs1.png[/IMG] [IMG]https://i.postimg.cc/wTMRxHrj/poketcgs10.png[/IMG] [IMG]https://i.postimg.cc/CL2BzXyH/poketcgs11.png[/IMG] [IMG]https://i.postimg.cc/LsKJVP8J/poketcgs12.png[/IMG] [IMG]https://i.postimg.cc/RZn3fd4r/poketcgs13.png[/IMG] [IMG]https://i.postimg.cc/wBX74B10/poketcgs14.png[/IMG] [IMG]https://i.postimg.cc/tgWx05Md/poketcgs2.png[/IMG] [IMG]https://i.postimg.cc/yYp90WRR/poketcgs3.png[/IMG] [IMG]https://i.postimg.cc/Z59NHZPM/poketcgs4.png[/IMG] [IMG]https://i.postimg.cc/wjSmbP0T/poketcgs5.png[/IMG] [IMG]https://i.postimg.cc/wMTymdTF/poketcgs6.png[/IMG] [IMG]https://i.postimg.cc/764Tq2FF/poketcgs7.png[/IMG] [IMG]https://i.postimg.cc/tJS1dmsb/poketcgs8.png[/IMG] [IMG]https://i.postimg.cc/VsDbc5Dh/poketcgs9.png[/IMG]
+
+[SIZE="5"][COLOR="YellowGreen"][B]Known Bugs/ Glitches[/B][/COLOR][/SIZE] [SPOILER]
+Apart from some Bugs from the Original Game (Acid not working or Pokemon Trader being used incorrectly), the Only Glitch I've Seen is a Visual Glitch Where the Cursor Disappears Exactly in the Middle of the Deck Builder Screen and in Duels it is visually inverted when you check the Opponent's cards. They are only Visual Glitches and do not Affect the Gameplay itself, it may confuse a little but it works
+
+If anyone has any idea how to solve these Errors, please let me know, Thanks =D. [/SPOILER]
+
+[SIZE="5"][B]Download[/B][/SIZE]
+[URL="https://drive.google.com/file/d/1PKk9-YpTwLJWvm38J24PzFfHgh_I1M8l/view?usp=sharing"]Here[/URL]
+
+[SIZE="5"][COLOR="Yellow"][B]Version History[/B][/COLOR][/SIZE][SPOILER]
+1.0: Game Release [/SPOILER]
+
+[CENTER][SIZE="6"][COLOR="Teal"][B]Credits and Special Thanks[/B][/COLOR][/SIZE]
+[B]•	All the People Who Worked/Contributed to the [URL="https://github.com/pret/poketcg"]PokeTCG Disassembly Project[/URL]
+•	[URL="https://www.pokecommunity.com/member.php?u=1153748"]Otato[/URL] for creating the "[URL="https://gist.github.com/ButteredPotato/8835c96c791f2c47ad96f212dd5510fb"]Ducklett.Patch[/URL]" that allowed me to add even more Cards to the Game
+•	[URL="https://www.youtube.com/@DeltaSeeker"]DeltaSeeker[/URL] literally if it wasn't for your Video I wouldn't have done this nor would I have been interested in making Sprites/Pixel Art as much as I do today
+•	[URL="https://www.pokecommunity.com/member.php?u=519697"]Cataclyptic[/URL] for Being a Great Example Not Only to Make a Hack, but also to Make Pixel Art
+•	[URL="https://www.pokecommunity.com/member.php?u=977556"]Guzeinbuick[/URL] for Motivating me to Do this hack, I wouldn't have decided to do this without him Presenting the Idea to me xd[/CENTER][/B]

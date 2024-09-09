@@ -36,31 +36,31 @@ AIActionTable_WondersOfScience:
 	db MEWTWO_ALT_LV60
 	db MEWTWO_LV60
 	db GRIMER
-	db KOFFING
-	db PORYGON
+	db CATERPIE
+	db JIGGLYPUFF_LV13
 	db $00
 
 .list_bench
 	db GRIMER
-	db KOFFING
+	db CATERPIE
 	db MEWTWO_ALT_LV60
 	db MEWTWO_LV60
 	db MEWTWO_LV53
-	db PORYGON
+	db JIGGLYPUFF_LV13
 	db $00
 
 .list_retreat
 	db $00
 
 .list_energy
-	ai_energy GRIMER,          3, +0
-	ai_energy MUK,             4, +0
-	ai_energy KOFFING,         2, +0
-	ai_energy WEEZING,         3, +0
-	ai_energy MEWTWO_LV53,     2, -1
+	ai_energy GRIMER,          2, +0
+	ai_energy MUK,             2, +0
+	ai_energy CATERPIE,         2, +0
+	ai_energy WEEDLE,         3, +0
+	ai_energy KAKUNA,     3, +1
 	ai_energy MEWTWO_ALT_LV60, 2, -1
 	ai_energy MEWTWO_LV60,     2, -1
-	ai_energy PORYGON,         2, -1
+	ai_energy JIGGLYPUFF_LV13,         1, +1
 	db $00
 
 .list_prize

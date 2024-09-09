@@ -396,37 +396,38 @@ CreateDiscardPileCardList::
 ; fill wDuelTempList with the turn holder's remaining deck cards (their 0-59 deck indexes)
 ; return carry if the turn holder has no cards left in the deck
 CreateDeckCardList::
-	ld a, DUELVARS_NUMBER_OF_CARDS_NOT_IN_DECK
-	call GetTurnDuelistVariable
-	cp DECK_SIZE
-	jr nc, .no_cards_left_in_deck
-	ld a, DECK_SIZE
-	sub [hl]
-	ld c, a
-	ld b, a ; c = b = DECK_SIZE - [DUELVARS_NUMBER_OF_CARDS_NOT_IN_DECK]
-	ld a, [hl]
-	add DUELVARS_DECK_CARDS
-	ld l, a ; l = DUELVARS_DECK_CARDS + [DUELVARS_NUMBER_OF_CARDS_NOT_IN_DECK]
-	inc b
-	ld de, wDuelTempList
-	jr .begin_loop
+    ld a, DUELVARS_NUMBER_OF_CARDS_NOT_IN_DECK
+    call GetTurnDuelistVariable
+    cp DECK_SIZE
+    jr nc, .no_cards_left_in_deck
+    ld a, DECK_SIZE
+    sub [hl]
+    ld c, a
+    ld b, a ; c = b = DECK_SIZE - [DUELVARS_NUMBER_OF_CARDS_NOT_IN_DECK]
+.got_number_cards
+    ld a, [hl]
+    add DUELVARS_DECK_CARDS
+    ld l, a ; l = DUELVARS_DECK_CARDS + [DUELVARS_NUMBER_OF_CARDS_NOT_IN_DECK]
+    inc b
+    ld de, wDuelTempList
+    jr .begin_loop
 .next_card
-	ld a, [hli]
-	ld [de], a
-	inc de
+    ld a, [hli]
+    ld [de], a
+    inc de
 .begin_loop
-	dec b
-	jr nz, .next_card
-	ld a, $ff ; $ff-terminated
-	ld [de], a
-	ld a, c
-	or a
-	ret
+    dec b
+    jr nz, .next_card
+    ld a, $ff ; $ff-terminated
+    ld [de], a
+    ld a, c
+    or a
+    ret
 .no_cards_left_in_deck
-	ld a, $ff
-	ld [wDuelTempList], a
-	scf
-	ret
+    ld a, $ff
+    ld [wDuelTempList], a
+    scf
+    ret
 
 ; fill wDuelTempList with the turn holder's energy cards
 ; in the arena or in a bench slot (their 0-59 deck indexes).
@@ -2261,11 +2262,23 @@ PrintFailedEffectText::
 ; return in a the retreat cost of the turn holder's arena or bench Pokemon
 ; given the PLAY_AREA_* value in hTempPlayAreaLocation_ff9d
 GetPlayAreaCardRetreatCost::
-	ldh a, [hTempPlayAreaLocation_ff9d]
-	add DUELVARS_ARENA_CARD
-	call GetTurnDuelistVariable
-	call LoadCardDataToBuffer1_FromDeckIndex
-	call GetLoadedCard1RetreatCost
+    ldh a, [hTempPlayAreaLocation_ff9d]
+    add DUELVARS_ARENA_CARD
+    call GetTurnDuelistVariable
+    call LoadCardDataToBuffer1_FromDeckIndex  ; preserves hl
+; apply Retreat Cost penalties before discounts
+    ldh a, [hTempPlayAreaLocation_ff9d]
+    or a
+    jp nz, GetLoadedCard1RetreatCost  ; exit, not arena
+; increased Retreat Cost substatus
+    ld a, DUELVARS_ARENA_CARD_SUBSTATUS2
+    call GetTurnDuelistVariable
+    cp SUBSTATUS2_RETREAT_PLUS_1
+    jp nz, GetLoadedCard1RetreatCost  ; exit, no substatus
+; add to default Retreat Cost
+    ld hl, wLoadedCard1RetreatCost
+    inc [hl]
+    jp GetLoadedCard1RetreatCost
 	ret
 
 ; move the turn holder's card with ID at de to the discard pile

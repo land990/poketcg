@@ -210,21 +210,21 @@ Text04af:
 	done
 
 Text04b0:
-	text "What if you place Exeggutor in the"
+	text "What if you place Ferrothorn in the"
 	line "arena, but you don't have any Energy"
 	line "cards? In this case, use Venusaur's"
 	line "Energy Trans to transfer Grass"
-	line "Energy and use Big Eggsplosion! If"
+	line "Energy and use Power Whip! If"
 	line "you attach 8 Energy cards, you can"
 	line "give your opponent up to 160 damage."
 	done
 
 Text04b1:
-	text "Toxic Gas"
+	text "Forest Curse"
 	done
 
 Text04b2:
-	text "Muk's Toxic Gas is very powerful!"
+	text "Forest Curse is very powerful!"
 	line "It can block all Pokémon Powers!"
 	line "But be careful because it also"
 	line "blocks your own Pokémon's Powers!"
@@ -743,10 +743,10 @@ Text04fb:
 
 Text04fc:
 	text "The first of the Legendary Pokémon"
-	line "Cards is <Lv>37 Moltres. With"
+	line "Cards is <Lv>87 Entei. With"
 	line "Firegiver, you can place Fire"
 	line "Energy cards in your hand! Also,"
-	line "Dive Bomb is a powerful attack!"
+	line "Fire StepIn_SwitchEffect is a powerful attack!"
 	line "Grand Master Courtney, the Fire"
 	line "Queen, owns this card!"
 	done
@@ -757,7 +757,7 @@ Text04fd:
 
 Text04fe:
 	text "The second Legendary Pokémon Card"
-	line "is <Lv>68 Zapdos. With Peal of"
+	line "is <Lv>86 Raikou. With Peal of"
 	line "Thunder, just putting this card on"
 	line "the bench causes damage!"
 	line "Also, Big Thunder is a powerful"
@@ -771,7 +771,7 @@ Text04ff:
 
 Text0500:
 	text "The third Legendary Pokémon Card"
-	line "is <Lv>37 Articuno. Its Quickfreeze"
+	line "is <Lv>87 Suicune. Its Aurora Veil"
 	line "will paralyze opponents' Pokémon"
 	line "when the card is put in play!"
 	line "Also, Ice Breath is a powerful"
@@ -785,10 +785,10 @@ Text0501:
 
 Text0502:
 	text "The fourth Legendary Pokémon Card"
-	line "is <Lv>41 Dragonite. Its Healing"
+	line "is <Lv>91 Lugia. Its Healing"
 	line "Wind will heal damage done to "
 	line "Pokémon when this card is played!"
-	line "Also, Slam is a powerful attack!"
+	line "Also, Aeroblast is a powerful attack!"
 	line "Rod, Leader of the Grand Masters,"
 	line "owns this card!"
 	done
@@ -824,7 +824,7 @@ Text0507:
 
 Text0508:
 	text "”Those in search of the Legendary"
-	line " Pokémon Cards..."
+	line " Pokémon Cards.."
 	line " Defeat the Masters of the 8 Clubs"
 	line " and attain the 8 Medals."
 	line " Once attained, defeat the Grand"
@@ -842,7 +842,7 @@ Text050a:
 	line "Challenge Hall! The Challenge Cup "
 	line "will begin soon. If you win the "
 	line "Challenge Cup, you will receive "
-	line "a Promotional Card! Please join "
+	line "a Card! Please join "
 	line "us for this competition."
 	done
 

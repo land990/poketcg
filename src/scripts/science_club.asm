@@ -96,7 +96,7 @@ Script_BeatRick:
 	show_medal_received_screen EVENT_BEAT_RICK
 	record_master_win $07
 	print_npc_text Text0763
-	give_booster_packs BOOSTER_LABORATORY_GRASS, BOOSTER_LABORATORY_GRASS, NO_BOOSTER
+	give_booster_packs BOOSTER_EVOLUTION_GRASS, BOOSTER_LABORATORY_GRASS, BOOSTER_LABORATORY_GRASS, NO_BOOSTER
 	print_npc_text Text0764
 	quit_script_fully
 
@@ -195,7 +195,7 @@ Script_LostToJoseph:
 
 .ows_ed37
 	print_npc_text Text0776
-	give_booster_packs BOOSTER_LABORATORY_GRASS, BOOSTER_LABORATORY_GRASS, NO_BOOSTER
+	give_booster_packs BOOSTER_LABORATORY_GRASS, BOOSTER_LABORATORY_GRASS, BOOSTER_LABORATORY_NEUTRAL, NO_BOOSTER
 	print_npc_text Text0777
 	quit_script_fully
 

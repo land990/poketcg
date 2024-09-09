@@ -60,8 +60,8 @@ AIActionTable_LegendaryZapdos:
 	ai_energy ELECTABUZZ_LV35, 2, -1
 	ai_energy JOLTEON_LV29,    3, +1
 	ai_energy ZAPDOS_LV40,     4, +2
-	ai_energy ZAPDOS_LV64,     4, +2
-	ai_energy ZAPDOS_LV68,     3, +1
+	ai_energy ZAPDOS_LV64,     3, +3
+	ai_energy ZAPDOS_LV68,     3, +2
 	ai_energy EEVEE,           3, +0
 	db $00
 

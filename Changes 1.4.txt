@@ -1,0 +1,338 @@
+Important Changes:
+Now Start the Game with the Text Speed ​​at 5
+Now the Final Duel against Ronald is more Difficult.
+Almost all Trades have been changed
+Imposter Oak now draws 5 cards, down from 4.
+Comfey has been replaced by Cyclizar
+"Stiffen" in addition to its avital effect now draws 1 card.
+"Recycle" now has the effect that if you draw Tails, you will draw 1 card.
+Full Heal, in addition to its effect, now also draws 1 card.
+"Water Pulse" in addition to its effect now Sleeps when removing Heads
+Errors:
+-
+
+New Cards:
+Cyclize (Mystery)
+
+Descriptions:
+Rowlet, Dartrix and Decidueye now have their corresponding levels
+Ho-oh "Rainbow Burn" now has the name to match
+
+Call for Family Attacks should indicate the correct PKMN.
+
+New Sprites:
+Goomy, Dusclops, linoone, Yanma, Yanmega, Basculegion, Houndoom, Bagon, Chatot, Seismitoad, Floatzel, Magnezone, Porygon, Eelektrik, Ho-oh, Lugia, Entei, Suicune, Raikune
+
+Sprites with minor changes: Omastar, Blipbug, Orbeetle, Vikavolt, Accelgor
+
+PKMN changes:
+Lugia and Ho-Oh Retreat Cost is now 3 and now have no resistance
+
+Lugia "Aeroblast" now costs 4 COLORLESS
+
+Ho-oh "Revival Blessing" now costs 1 FIRE and Rainbow Burn now has the following Effect:
+4 COLORLESS DMG: 20+
+"This attack does +10 damage for each different type of basic Energy attach to this Pkmn.(<WATER><FIRE><GRASS><LIGHTNING><FIGHTING><PSYCHIC>)"
+
+Goomy now has "Gooey" as his second attack:
+1 WATER 1 COLORLESS DMG: 10
+"Unless all damage from this attack is prevented, you may remove 3 damage counters from this PKMN."
+
+Sliggo now has "Slimy Water" as his Second Attack:
+1 WATER 1 COLORLESS DMG: 30+
+"This Attack does 10 more damage for each <COLORLESS> in the Defending Pokemon's Retreat Cost."
+
+Goodra now has the "Slimy Room" Pokepower
+"Whenever you attach an Energy from your Hand to this PKMN, Heal 20 damage from it."
+And now he has "Double-Edge" as his Second Attack.
+
+Dustox now has "Smogscreen" as his first attack:
+1 GRASS DMG: 10
+"The Defending PKMN is now Poisoned. If the Defending PKMN tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+
+Frogadier now has "Flip Turn" as its first attack:
+"Switch this Pkmn with 1 of your Benched Pkmn. Does damage +10 more damage for each <WATER> Energy attached to this PKMN but not used for this attack's Energy cost. You can't add more than 20 damage."
+
+Greninja now has "Coordinated Shuriken" as his second attack:
+2 WATER 1 COLORLESS DMG:30+
+This attack also does 10 damage to up to 3 of your opponent's Benched Pkmn. (Don't apply Weakness and/or Resistance for Benched Pok mon.) Does damage +10 more damage for each <WATER> Energy attached to this PKMN but not used for this attack's Energy cost. You can't add more than 20 damage."
+
+Zebstrika now has the "Sprint" Pokepower:
+"Once per turn, You may Discard your hand, then Draw 4 cards."
+And now as a second attack he has "Burst of Lightning":
+1 LIGHTNING 2 COLORLESS DMG: 20+
+"Put up to 2 Basic Energies from This attack does 20 more damage for each card returned this way. this card does 10 damage to itself."
+
+Camerupt "Eruption" now costs 3 FIRE and does -60 Day or
+
+Pyroar "Flamethrower" now costs 1 FIRE 2 COLORLESS and does 59 damage
+
+Golbat now has the "Sneak Attack" Pokepower:
+"When you play this PKMN from your hand, Does 10 damage to 1 of your opponent's Pokémon chosen at random. (Weakness and/or Resistance are not applied)."
+And Now "Leech Life" costs 1 GRASS 1 COLORLESS DMG: 30
+
+Crobat now has the "Suprise Bite" Pokepower:
+"When you play this PKMN from your hand, Does 20 damage to 1 of your opponent's Pokémon chosen at random. (Weakness and/or Resistance are not applied)."
+And Now "Toxic" costs 1 GRASS 2 COLORLESS.
+
+Crocalor "Flamethrower" now costs 2 FIRE 1 COLORLESS
+
+Skeledirge "Vitality Song" deals 20 damage and now has this effect:
+"Heal 20 damage from each of your Pkmn. (If any.)"
+
+Togetic "Metronome" now costs 2 COLORLESS
+
+Togekiss "Revival Blessing" now costs 3 COLOLRLESS and deals 40 Damage
+
+Sneasel "Fury Swipes" now costs 1 COLORLESS
+
+Yanma and Yanmega are now weak to LIGHTNING
+
+Seel "Headbutt" now costs 1 COLORLESS
+
+Dewgong "Crushig Ice" now costs 1 COLORLESS less
+
+Porygon now has "Data Retrieval":
+2 COLORLESS DMG: 0
+"Shuffle your hand into your deck, then draw 5 cards."
+
+Porygon 2 "Energy Search" now costs 1 COLORLESS
+
+Regidrago "Dragon Energy" now makes 70-
+
+Luxray "Energy Crush" now deals 40 Damage and has this effect:
+"Does +10 more damage for each Energy card attached to the Defending Pkmn. Then, Swith this PKMN with 1 of your Benched pkmn (You Cant use this Attack if your bench is Empty)."
+
+Chewtle "Bite" now costs 1 COLORLESS AND does 10 damage
+Now Resists FIRE
+
+Drednaw "Vise Bite" now costs 2 WATER 1 COLORLESS AND "Jaw Lock" costs 2 FIGHTING 2 COLORLESS and does 60 damage
+
+Regieleki "Electromagnetic Sonar" now costs 1 ELECTRIC DMG: 10 and is now his First Attack.
+And now he has "Teraspark" as his second attack:
+2 LIGHTNING 2 COLORLESS DMG: 40
+"Discard 2 Energy Cards attached to this PKMN in order to use this attack. Then, If your opponent has any Benched PKMN, Choose 1 of them and this attack does 40 damage to it (Don't Apply Weakness or Resistance)."
+
+Seismitoad now has 2 new attacks:
+"Quaking Punch":
+1 WATER 1 COLORLESS DMG: 30
+"Your Opponent can't play trainer cards during their next turn."
+"Tremulous Fist"
+2 FIGHTING 2 COLORLESS DMG: 40+
+"This attack does 10 more damage for each of your PKMN with any damage counters on it."
+
+Sandaconda "Big Sand Cannon" now costs 1 FIGHTING 2 COLORLESS DMG: 40
+
+Appletun now has "Sweet Impact" as his second attack:
+"Flip 3 coins. This attack does damage times the number of heads. This PKMN is now Confused (after doing damage). then, Heal Damage from this PKMN equal to half of the damage inflicted. (Round Up.)"
+
+Bagon now has "Draconic Dreams" as a Second Attack:
+1 FIRE 1 WATER DMG:20
+"Search your deck for any Basic Pok mon or Evolution card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward.
+
+Shelgon "Protect Charge" now costs 1 WATER 1 COLORLESS and does 20 damage.
+
+Salamence "Dragon Rage" now does 70 damage
+
+Horsea "Smokesreen" now costs 1 WATER
+
+Seadra "Wildifire" now costs only 1 FIRE
+
+Kingdra "Dancing Embers" now costs 1 FIRE
+
+Magnemite, Magneton, and Magnezone are now weak to FIRE
+
+Magneton "Magnetic Release" now does 30 damage
+
+Celebi "Psychic" now does 20 damage
+
+Stenne "Double Slap" In addition to his regular effects, they now heal half of the damage dealt.
+Steenee now has "Leaf Guard" as her second attack:
+2 GRASS DMG: 10
+"All damage done to this PKMN during your opponent's next turn is reduced by 20 (after applying Weakness and Resistance)."
+
+Tsareena "Side Jump Kick" now does 40 damage
+
+Entei "Fire Spin" now does 70 damage and costs 2 FIRE 1 COLORLESS
+
+Suicune "Ice Breath" now costs 2 WATER 1 COLORLESS
+
+Raikou "Big Thunder" now costs 2 LIGHTNING 1 COLORLESS and is now weak to FIRE
+
+Zeraora "Plasma Fist" now Paralyzes when taking Heads and does 60 days or
+
+Manectric now has "Disconnect" and Resite LIGHTING
+
+Eevee now has "Quick Attack" as her first attack:
+1 COLORLESS DMG: 10+
+"Flip a Coin. If Heads, This Attack Does 10 more Damage."
+And "Sings of Evolution" now has this effect:
+2 COLORLESS
+"Search your deck for any Basic Pokemon or Evolution card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward."
+
+Heliptile now has 50 hp
+
+Helolisk "Parabolic Charge" now costs 1 LIGHTNING
+
+Jolteon now resists WATER
+
+Espeon now has "Confuse Ray" 1 PSYCHIC DMG: 20, and resists FIGHTNING
+
+Umbreon Now has "Mean Look" 1 PSYCHC DMG: 20
+"During your Opponent's Turn, The Defending PKMN Retreat cost is 1 <COLORLESS> More."
+
+Buizel now has "Push Aside":
+1 COLORLESS DMG: 10
+"Flip a coin. If heads and if your opponent has any Benched Pok mon,he or she chooses 1 of them and switches it with the Defending Pok mon.(Do the damage before switching the Pok mon.)"
+and As a second attack it now has "Water Pulse"
+
+Floatzel now has "Aquatic Rescue" as her first attack:
+1 WATER DMG: 10
+"In order to use this attack you must Put up to 2 Energy cards from your discard piled into your hand. This Card does 10 damage to itself. Does damage +10 more damage for each <WATER> Energy attached to this PKMN but not used to pay for this more than 20 damage in this way."
+
+And "Aqua Jet" as his second
+2 WATER 1 COLORLESS DMG: 30
+"Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pkmn. (Don't apply Weakness and/or Resistance) If tails, Draw 1 card."
+
+Cresselia now has 80 HP and has "Healing Light" as a second attack:
+2 PSYCHIC 1 COLORLESS DMG: 30
+"Heal 20 damage from each of your Pkmn. (If any.)"
+
+Rookidee now has "Energy Search" as its first attack and Whirlwind as its second.
+
+Corvisquire now has "Messenger" as its first attack:
+1 COLORLESS DMG: 10
+"Look at the top 3 cards of your Deck, Choose 1 of them, and add it to your Hand. Shuffle your Deck afterwards."
+and "Whirlwind" as her second.
+
+Corviknight "Steel Wing" is now his first attack, costing 2 COLORLESS and dealing 30 Damage.
+Her second attack is now "Hurricane" 4 COLORLESS and does 50 Damage.
+
+Munna and Musharna are now Weak to PSYCHIC
+
+Musharna "Dream Waltz" now does 30 damage
+
+Magby "Smog" now does 10 damage
+
+Emolga "Volt Switch" now does +10 damage when drawing Heads, and "Nuzzle" always Draws 1 card regardless of its result.
+
+Chatot now has "Mirror Move" as her second attack.
+
+Ferrothorn "Gyro Ball" and "Power Whip" now cost 1 COLORLEES less.
+
+Houndour and Sizzlipede are now Weak to WATER
+
+Houndoom "Attract" now costs 1 PSYCHIC and 1 COLORLESS And "Fire Blast" now costs 3 FIRE 1 COLORLESS
+
+Drampa is now Weak to WATER and "Dragon Breath" now costs 2 COLORLESS
+
+Hitmonchan "Mach Punch" now does +10 Hit when removing Heads AND "Sky Uppercut" now does not apply Weakness and/or Resistance
+
+Hitmonlee "High Jump Kick" now has this Effect:
+3 FIGHTING DMG: 40+
+"Flip a coin. If heads, this attack does +10 more damage; if tails, it does 10 damage to itself."
+
+Toxel, Toxtricity-High and Low are now Weak to PSYCHIC
+"Punk Rock" now does 30 damage
+
+Darumaka "Fire Punch" now costs 1 FIRE AND does 10 damage
+
+Darmanitan now has "Double Edge" as his first Attack:
+1 FIRE 2 COLORLESS DMG: 40
+"Flip a Coin. IF Tails, Does 30 Damage to Itself."
+and now "Flareblitz" has these changes:
+4 FIRE DMG: 40+
+"Discard 1 Energy card attached to this PKMN in order to use this attack. This attack does damage +10 more damage for each damage counter on This PKMN."
+
+Dunsparce "Down Draw" now has this effect:
+"Draw 2 cards. Then, switch this PKMN with 1 of your Benched Pkmn. You can't use this attack if your Bench is empty."
+
+Accelgor "Ninja Tornado" now costs 1 COLORLESS more
+
+Charjabug "Magnetic Storm" now does 30 damage
+
+Vikavolt "ThunderStorm" now costs 2 LIGHTNING 1 GRASS and deals 30 Damage
+and "Zap Cannon" now costs 3 LIGHTNING 1 GRASS
+
+Croagunk "Poison Sting" now costs 1 GRASS
+
+Toxicroak now has "Corner" as its first attack
+1 GRASS 1 COLORLESS DMG: 10
+"During your Opponent's Turn, The Defending PKMN Retreat cost is 1 <COLORLESS> More. Then, Your opponent's Active Pkmn is now Poisoned. Put 2 damage counters instead of 1 on that Pkmn between turns."
+And as a second attack it now has "Toxic Rend"
+1 FIGHTING 2 COLORLESS DMG: 30+
+"This Attack does 30 more damage if the Defending PoKeMoN is Affected By a Status Condition."
+
+Bibarel "Rescue" now costs 1 COLORLESS
+
+Cuffant "Gyro Ball" now costs 1 FIGHTING 1 COLORLESS and does 20 Damage.
+
+Copperajah now has "Dig Drain" as his First Attack:
+1 FIGHTING 2 COLROLESS DMG: 30
+"Heal damage from this card equal to half the damage done to the Defending Pkmn (after Weakness and Resistance) (rounded up to the nearest 10). If this Card has fewer damage counters than that, remove all of them. During your opponent's next turn, this PKMN takes 30 less damage from attacks (after applying Weakness and Resistance)."
+
+Pupitar "Bulldoze" now costs 1 FIGHTING 2 COLORLESS
+
+Tyranitar's Crunch now costs 1 PSYCHIC 1 COLORLESS and "Dread Mountain" now costs 2 FIGHTING 2 COLORLESS
+
+Perrserker now has "Treasure Rush" as his Second Attack:
+2 FIGHTING 1 COLORLESS DMG: 10+
+"Does Damage +10 more Damage for Each Card in your hand. Then, This card does 20 Damage to itself"
+
+Druddigon now has "Revenge" as his Second Attack:
+1 WATER 1 COLORLESS DMG: 10+
+"This attack does 10 more damage for each of your PKMN with any damage counters on it."
+
+Clawitzer "Lock On" now does 20 damage
+and "Sharpshooting" now has this effect:
+"Does damage +10 more damage for each <WATER> Energy attached to this PKMN but not used for this attack's Energy cost. You can't add more than 20 damage. If your opponent has any Benched Pkmn, choose 1 of them and this attack does 20 damage to it. (Don't apply Weakness and Resistance for Benched Pok mon.)
+
+Snover and Abomasnow are now weak to FIGHTING
+
+Abomasnow "Blizzard" now has the following Effect:
+1 GRASS 2 COLORLESS DMG: 40
+"Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pkmn. (Don't apply Weakness and/or Resistance) If tails, Draw 1 card."
+
+Metang "Bullet Punch" now does 10 damage
+
+Metagross "Metal Reversal" now costs 1 PSYCHIC 1 COLROLESS AND "Meteor Mash" now has this effect:
+1 PSYCHIC 2 COLORLESS DMG: 40+
+"Does damage plus 10 more for each <FIGHTING> Energy attached to this PKMN."
+
+Murkrow now has a Retreat cost of 1
+
+Spiritomb "Hex" now does 20 damage
+
+Mew now has 60 HP and "Devolution Beam" now costs 1 PSYCHIC 1 COLOLORLESS
+
+Trapinch now has "Bulldoze" as a second attack.
+
+Flygon "Sand Slammer" now does 10 Damage and "Dusty Pillar" now costs 2 FIGHTING 1 COLORLESS
+
+Krookodile "Obsidian Fangs" now costs 2 FIGHTING 1 COLORLESS and does 30+ damage.
+
+Eelektrik and Eelektross now have "Suction Heal" as their Second and First Attacks Correspondingly:
+2 LIGHTNING DMG: 20
+"Heal Damage from this PKMN the same amount of damage you did to your opponent Active Pkmn. then, During your Opponent's Turn, The Defending PKMN Retreat cost is 1 <COLORLESS> More.
+
+Eelektross "Electrical Rend" now costs 3 LIGHTNING
+
+Skorupi "Dangerous Claw" now costs 1 PSYCHIC 1 COLORLESS
+
+Drapion now has "Wrack Down" as First Attack:
+1 PSYCHIC 1 COLORLESS DMG: 20
+"During your Opponent's Turn, The Defending PKMN Retreat cost is 1 <COLORLESS> More. Then, Your opponent can't play Trainer cards during their next turn."
+
+and "Hazardous Claws" as his second:
+2 GRASS 2 COLORLESS DMG: 40
+"Discard 2 Energy from this Pkmn.Your opponent's Active Pkmn is now Paralyzed and Poisoned."
+
+Dewpider "Sticky Web" now has the following effect:
+"During your Opponent's Turn, The Defending PKMN Retreat cost is 1 <COLORLESS> More."
+
+Araquanid now has "Hydro Drain" as its second attack:
+1 WATER 1 COLORLESS DMG: 20
+"Does damage +10 more damage for each <WATER> Energy attached to this PKMN but not used for this attack's Energy cost. You can't add more than 20 damage. Heal from this PKMN the same amount of damage you did to your opponent Activate Pokémon."
+
+and "Liquidation" now has the following effect:
+"During your Opponent's Turn, The Defending PKMN Retreat cost is 1 <COLORLESS> More. Then, this attack does damage +10 more for each <COLORLESS> in the Defending PKMN's Retreat cost."

@@ -63,6 +63,7 @@ INCLUDE "engine/menus/debug.asm"
 INCLUDE "engine/menus/wait_keys.asm"
 INCLUDE "engine/gfx/default_palettes.asm"
 INCLUDE "engine/menus/naming.asm"
+INCLUDE "engine/menus/choose_gender.asm"
 
 SECTION "Sprite Animations", ROMX
 INCLUDE "engine/gfx/sprite_animations.asm"
@@ -162,10 +163,13 @@ INCLUDE "engine/duel/ai/common.asm"
 SECTION "Effect Functions", ROMX
 INCLUDE "engine/duel/effect_functions.asm"
 
+SECTION "Effect Functions2", ROMX
+INCLUDE "engine/duel/effect_functions2.asm"
+
 SECTION "Decks", ROMX
 INCLUDE "data/decks.asm"
 
-SECTION "Cards", ROMX
+SECTION "Moved Cards", ROMX
 INCLUDE "data/cards.asm"
 
 SECTION "SGB", ROMX
@@ -173,6 +177,12 @@ INCLUDE "engine/sgb.asm"
 
 SECTION "Bank 20", ROMX
 INCLUDE "engine/bank20.asm"
+
+SECTION "Custom Gfx", ROMX
+INCLUDE "custom/gfx.asm"
+
+SECTION "Custom Gfx2", ROMX
+INCLUDE "custom/gfx2.asm"
 
 SECTION "Gfx", ROMX
 INCLUDE "engine/gfx/gfx_table_pointers.asm"

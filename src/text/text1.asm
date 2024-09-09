@@ -991,7 +991,7 @@ OpponentIsNotAsleepText:
 
 UnableDueToToxicGasText:
 	text "Unable to use due to the"
-	line "effects of Toxic Gas."
+	line "effects of Forest Curse."
 	done
 
 Text00d5:
@@ -1130,7 +1130,7 @@ TrainerCardSuccessCheckText:
 
 CardCheckIfHeads8CardsIfTails1CardText:
 	text "Card check!"
-	line "If Heads, 8 cards! If Tails, 1 card!"
+	line "If Heads, 8 cards! If Tails, 3 cards!"
 	done
 
 IfHeadsNoDamageNextTurnText:

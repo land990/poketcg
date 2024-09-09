@@ -157,9 +157,9 @@ AIPlay_Potion:
 	ldh [hTemp_ffa0], a
 	ld e, a
 	call GetCardDamageAndMaxHP
-	cp 20
+	cp 30
 	jr c, .play_card
-	ld a, 20
+	ld a, 30
 .play_card
 	ldh [hTempPlayAreaLocation_ffa1], a
 	ld a, OPPACTION_EXECUTE_TRAINER_EFFECTS
@@ -187,9 +187,9 @@ AIDecide_Potion1:
 	ld h, a
 	ld e, PLAY_AREA_ARENA
 	call GetCardDamageAndMaxHP
-	cp 20 + 1 ; if damage <= 20
+	cp 30 + 1 ; if damage <= 30
 	jr c, .calculate_hp
-	ld a, 20 ; amount of Potion HP healing
+	ld a, 30 ; amount of Potion HP healing
 
 ; if damage done by defending Pokémon next turn will still
 ; KO this card after healing, return no carry.
@@ -225,9 +225,9 @@ AIDecide_Potion2:
 	ld h, a
 	ld e, PLAY_AREA_ARENA
 	call GetCardDamageAndMaxHP
-	cp 20 + 1  ; if damage <= 20
+	cp 30 + 1  ; if damage <= 30
 	jr c, .calculate_hp
-	ld a, 20
+	ld a, 30
 ; return if using healing prevents KO.
 .calculate_hp
 	ld l, a
@@ -264,7 +264,7 @@ AIDecide_Potion2:
 	call .check_boost_if_taken_damage
 	jr c, .has_boost_damage
 	call GetCardDamageAndMaxHP
-	cp 20 ; if damage >= 20
+	cp 30 ; if damage >= 30
 	jr nc, .found
 .has_boost_damage
 	inc e
@@ -347,9 +347,9 @@ AIPlay_SuperPotion:
 	ld a, [wAITrainerCardParameter]
 	ld e, a
 	call GetCardDamageAndMaxHP
-	cp 40
+	cp 60
 	jr c, .play_card
-	ld a, 40
+	ld a, 60
 .play_card
 	ldh [hTempRetreatCostCards], a
 	ld a, OPPACTION_EXECUTE_TRAINER_EFFECTS
@@ -381,9 +381,9 @@ AIDecide_SuperPotion1:
 	ld h, a
 	ld e, PLAY_AREA_ARENA
 	call GetCardDamageAndMaxHP
-	cp 40 + 1 ; if damage < 40
+	cp 60 + 1 ; if damage < 60
 	jr c, .calculate_hp
-	ld a, 40
+	ld a, 60
 .calculate_hp
 	ld l, a
 	ld a, h
@@ -425,9 +425,9 @@ AIDecide_SuperPotion2:
 	ld h, a
 	ld e, PLAY_AREA_ARENA
 	call GetCardDamageAndMaxHP
-	cp 40 + 1 ; if damage < 40
+	cp 60 + 1 ; if damage < 60
 	jr c, .calculate_hp
-	ld a, 40
+	ld a, 60
 ; return if using healing prevents KO.
 .calculate_hp
 	ld l, a
@@ -471,7 +471,7 @@ AIDecide_SuperPotion2:
 	call .check_energy_cost
 	jr c, .next
 	call GetCardDamageAndMaxHP
-	cp 40 ; if damage >= 40
+	cp 60 ; if damage >= 60
 	jr nc, .found
 .next
 	inc e
@@ -3249,6 +3249,8 @@ AIDecide_EnergySearch:
 	jr z, .heated_battle
 	cp WONDERS_OF_SCIENCE_DECK_ID
 	jr z, .wonders_of_science
+	cp LEGENDARY_RONALD_DECK_ID
+	jr z, .heated_battle
 
 ; if no energy cards in deck, return no carry
 	ld a, CARD_LOCATION_DECK

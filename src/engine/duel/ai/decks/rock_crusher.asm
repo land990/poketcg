@@ -32,16 +32,16 @@ AIActionTable_RockCrusher:
 	ret
 
 .list_arena
-	db RHYHORN
-	db ONIX
-	db GEODUDE
+	db ROCKRUFF
+	db CUBONE
+	db SANDSHREW
 	db DIGLETT
 	db $00
 
 .list_bench
-	db DIGLETT
-	db GEODUDE
-	db RHYHORN
+	db ROCKRUFF
+	db CUBONE
+	db SANDSHREW
 	db ONIX
 	db $00
 
@@ -50,13 +50,13 @@ AIActionTable_RockCrusher:
 	db $00
 
 .list_energy
-	ai_energy DIGLETT,  3, +1
-	ai_energy DUGTRIO,  4, +0
-	ai_energy GEODUDE,  2, +1
-	ai_energy GRAVELER, 3, +0
-	ai_energy GOLEM,    4, +0
-	ai_energy ONIX,     2, -1
-	ai_energy RHYHORN,  3, +0
+	ai_energy ROCKRUFF,  1, +0
+	ai_energy LYCANROC,  3, +1
+	ai_energy SANDSHREW,  2, +0
+	ai_energy CUBONE, 2, +0
+	ai_energy MAROWAK_LV32,    3, +1
+	ai_energy MAROWAK_LV26,     4, +2
+	ai_energy SANDSLASH,  3, +1
 	db $00
 
 .list_prize

@@ -48,7 +48,7 @@ UnableToRetreatDueToAcidText:
 
 UnableToUseTrainerDueToHeadacheText:
 	text "Unable to use a Trainer card"
-	line "due to the effects of Headache."
+	line "due to the effects of an Attack."
 	done
 
 UnableToAttackDueToTailWagText:
@@ -209,7 +209,7 @@ Text011e:
 
 ChooseAndDiscard2FireEnergyCardsText:
 	text "Choose and Discard"
-	line "2 Fire Energy cards."
+	line "1 Fire Energy card."
 	done
 
 DiscardOppDeckAsManyFireEnergyCardsText:
@@ -223,7 +223,7 @@ ChooseAndDiscard2EnergyCardsText:
 	done
 
 ChooseAKrabbyFromDeckText:
-	text "Choose a Krabby"
+	text "Choose a Clauncher"
 	line "from the Deck."
 	done
 
@@ -243,16 +243,16 @@ ChooseBasicFightingPokemonFromDeckText:
 	done
 
 ChooseAnOddishFromDeckText:
-	text "Choose an Oddish"
+	text "Choose an Applin"
 	line "from the Deck."
 	done
 
 ChooseAnOddishText:
-	text "Choose an Oddish"
+	text "Choose an Applin"
 	done
 
 ChooseAKrabbyText:
-	text "Choose a Krabby."
+	text "Choose a Clauncher."
 	done
 
 ChooseBasicEnergyCardText:
@@ -261,13 +261,13 @@ ChooseBasicEnergyCardText:
 	done
 
 ChooseNidoranFromDeckText:
-	text "Choose a Nidoran♀ or a"
-	line "Nidoran♂ from the Deck."
+	text "Choose a Shellmet or a Karrablast"
+	line "from the deck."
 	done
 
 ChooseNidoranText:
-	text "Choose a Nidoran♀"
-	line "or a Nidoran♂."
+	text "Choose a Shellmet"
+	line "or a Karrablast."
 	done
 
 ChooseBasicFightingPokemonText:
@@ -278,7 +278,7 @@ ChooseBasicFightingPokemonText:
 ProcedureForEnergyTransferText:
 	text "Procedure for Energy Transfer:"
 	line ""
-	line "1. Choose the Pokémon to move Grass"
+	line "1. Choose the Pokémon to move an"
 	line "   Energy from.  Press the A Button."
 	line ""
 	line "2. Choose the Pokémon to move the"
@@ -290,12 +290,12 @@ ProcedureForEnergyTransferText:
 	done
 
 ChooseABellsproutFromDeckText:
-	text "Choose a Bellsprout"
+	text "Choose a Bounsweet"
 	line "from the Deck."
 	done
 
 ChooseABellsproutText:
-	text "Choose a Bellsprout."
+	text "Choose a Bounsweet."
 	done
 
 ChoosePkmnToRemoveDamageCounterText:
@@ -826,12 +826,12 @@ ReceivedLegendaryCardText:
 
 ReceivedPromotionalFlyingPikachuText:
 	text "<RAMNAME> received a Promotinal"
-	line "card Flyin' Pikachu!"
+	line "card!"
 	done
 
 ReceivedPromotionalSurfingPikachuText:
 	text "<RAMNAME> received a Promotional"
-	line "card Surfin' Pikachu!"
+	line "card!"
 	done
 
 Text0194:
@@ -913,14 +913,14 @@ DrawSevenCardsPracticeDuelText:
 	line "Choose your Active Pokémon."
 	line "You can only choose Basic Pokémon"
 	line "as your Active Pokémon,"
-	line "so you can choose either Goldeen"
-	line "or Staryu."
+	line "so you can choose either Basculin"
+	line "or Dewpider."
 	line "For our practice duel,"
-	line "choose Goldeen."
+	line "choose Basculin."
 	done
 
 ChooseGoldeenPracticeDuelText:
-	text "Choose Goldeen for this"
+	text "Choose Basculin for this"
 	line "practice duel, OK?"
 	done
 
@@ -931,12 +931,12 @@ PutPokemonOnBenchPracticeDuelText:
 	line "with your Active Pokémon."
 	line "Again, only Basic Pokémon can be"
 	line "placed on your Bench."
-	line "Choose Staryu from your hand and"
+	line "Choose Dewpider from your hand and"
 	line "put it there."
 	done
 
 ChooseStaryuPracticeDuelText:
-	text "Choose Staryu for this"
+	text "Choose Dewpider for this"
 	line "practice duel, OK?"
 	done
 
@@ -953,38 +953,38 @@ Turn1Instr1PracticeDuelText:
 
 Turn1Instr2PracticeDuelText:
 	text "2. Attach a Water Energy card to"
-	line "   your Active Pokémon, Goldeen."
+	line "   your Active Pokémon, Basculin."
 	done
 
 Turn1Instr3PracticeDuelText:
 	text "3. Choose Attack from the Menu"
-	line "   and select Horn Attack."
+	line "   and select Flail."
 	done
 
 Turn2Instr1PracticeDuelText:
-	text "1. Evolve Goldeen by"
-	line "   attaching Seaking to it."
+	text "1. Evolve Basculin by"
+	line "   attaching Basculigeon to it."
 	done
 
 Turn2Instr2PracticeDuelText:
 	text "2. Attach a Psychic Energy card"
-	line "   to the evolved Seaking."
+	line "   to the evolved Basculigeon."
 	done
 
 Turn2Instr3PracticeDuelText:
 	text "3. Choose Attack and select"
-	line "   Waterfall to attack your"
+	line "   Last Respects to attack your"
 	line "   opponent."
 	done
 
 Turn3Instr1PracticeDuelText:
 	text "1. Attach a Water Energy card to"
-	line "   your Benched Staryu."
+	line "   your Benched Dewpider."
 	done
 
 Turn3Instr2PracticeDuelText:
 	text "2. Choose Attack and attack your"
-	line "   opponent with Horn Attack."
+	line "   opponent with Flail."
 	done
 
 Turn3Instr3PracticeDuelText:
@@ -1001,7 +1001,7 @@ Turn4Instr2PracticeDuelText:
 	done
 
 Turn4Instr3PracticeDuelText:
-	text "3. Choose Seaking and attack your"
+	text "3. Choose Basculegion and attack your"
 	line "   opponent with Waterfall."
 	done
 
@@ -1075,41 +1075,41 @@ Turn1DrMason1PracticeDuelText:
 
 Turn1DrMason2PracticeDuelText:
 	text "Next, choose your Active Pokémon,"
-	line "Goldeen, and press the A Button."
+	line "Basculin, and press the A Button."
 	line "Then the Water Energy card will"
-	line "be attached to Goldeen."
+	line "be attached to Basculin."
 	done
 
 Turn1DrMason3PracticeDuelText:
 	text "Finally, attack your opponent by"
 	line "selecting an attack command."
 	line "Choose Attack from the Menu, and"
-	line "select Horn Attack."
+	line "select Flail."
 	done
 
 Turn2DrMason1PracticeDuelText:
-	text "Your Goldeen's gonna get Knocked"
+	text "Your Basculin's gonna get Knocked"
 	line "Out. Let's evolve it!"
-	line "Choose Seaking from your hand and"
-	line "attach it to Goldeen to"
+	line "Choose Basculegeon from your hand and"
+	line "attach it to Basculin to"
 	line "Evolve it."
-	line "Its HP increases from 40 to 70."
+	line "Its HP increases from 50 to 70."
 	done
 
 Turn2DrMason2PracticeDuelText:
-	text "Your Seaking doesn't have enough"
-	line "Energy to use Waterfall."
+	text "Your Basculegeon doesn't have enough"
+	line "Energy to use Last Respects."
 	line "You need to attach a Psychic Energy"
-	line "card to Seaking."
+	line "card to Basculegeon."
 	line "<COLORLESS> means any Energy card."
-	line "Now you can use Waterfall."
+	line "Now you can use Last Respects."
 	line "Keep the Water Energy card for"
 	line "other Pokémon."
 	done
 
 Turn2DrMason3PracticeDuelText:
 	text "Now let's attack your opponent with"
-	line "Seaking's Waterfall!"
+	line "Basculegeon's Last Respects!"
 	done
 
 Turn3DrMason1PracticeDuelText:
@@ -1135,9 +1135,6 @@ Turn3DrMason2PracticeDuelText:
 Turn3DrMason3PracticeDuelText:
 	text "Now Machop's HP is 0 and it is"
 	line "Knocked Out."
-	line "When you Knock Out the Defending"
-	line "Pokémon, you can pick up a"
-	line "Prize."
 	done
 
 Turn4DrMason1PracticeDuelText:
@@ -1280,7 +1277,7 @@ SamsPracticeDeckName:
 	done
 
 CharmanderAndFriendsDeckName:
-	text "Charmander & Friends"
+	text "Tepig & Friends"
 	done
 
 CharmanderExtraDeckName:
@@ -1288,7 +1285,7 @@ CharmanderExtraDeckName:
 	done
 
 SquirtleAndFriendsDeckName:
-	text "Squirtle & Friends"
+	text "Froakie & Friends"
 	done
 
 SquirtleExtraDeckName:
@@ -1296,7 +1293,7 @@ SquirtleExtraDeckName:
 	done
 
 BulbasaurAndFriendsDeckName:
-	text "Bulbasaur & Friends"
+	text "Chikorita & Friends"
 	done
 
 BulbasaurExtraDeckName:
@@ -1336,19 +1333,19 @@ FireChargeDeckName:
 	done
 
 LegendaryMoltresDeckName:
-	text "Legendary Moltres"
+	text "Legendary Entei"
 	done
 
 LegendaryZapdosDeckName:
-	text "Legendary Zapdos"
+	text "Legendary Raikou"
 	done
 
 LegendaryArticunoDeckName:
-	text "Legendary Articuno"
+	text "Legendary Suicune"
 	done
 
 LegendaryDragoniteDeckName:
-	text "Legendary Dragonite"
+	text "Legendary Lugia"
 	done
 
 ImRonaldDeckName:
@@ -1456,7 +1453,7 @@ FlyinPokemonDeckName:
 	done
 
 LovelyNidoranDeckName:
-	text "Lovely Nidoran"
+	text "Lovely Insects"
 	done
 
 PoisonDeckName:

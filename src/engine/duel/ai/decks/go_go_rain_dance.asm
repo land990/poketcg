@@ -33,8 +33,8 @@ AIActionTable_GoGoRainDance:
 
 .list_arena
 	db LAPRAS
-	db HORSEA
-	db GOLDEEN
+	db SHELLDER
+	db PSYDUCK
 	db SQUIRTLE
 	db $00
 
@@ -46,18 +46,18 @@ AIActionTable_GoGoRainDance:
 	db $00
 
 .list_retreat
-	ai_retreat SQUIRTLE,  -3
-	ai_retreat WARTORTLE, -2
+	ai_retreat SQUIRTLE,  +0
+	ai_retreat WARTORTLE, -1
 	ai_retreat HORSEA,    -1
 	db $00
 
 .list_energy
 	ai_energy SQUIRTLE,  2, +0
-	ai_energy WARTORTLE, 3, +0
-	ai_energy BLASTOISE, 5, +0
-	ai_energy GOLDEEN,   1, +0
-	ai_energy SEAKING,   2, +0
-	ai_energy HORSEA,    2, +0
+	ai_energy WARTORTLE, 4, +1
+	ai_energy BLASTOISE, 5, +2
+	ai_energy PSYDUCK,   2, +0
+	ai_energy GOLDUCK,   3, +0
+	ai_energy SHELLDER,    2, +0
 	ai_energy SEADRA,    3, +0
 	ai_energy LAPRAS,    3, +0
 	db $00
@@ -66,7 +66,6 @@ AIActionTable_GoGoRainDance:
 	db GAMBLER
 	db ENERGY_RETRIEVAL
 	db SUPER_ENERGY_RETRIEVAL
-	db BLASTOISE
 	db $00
 
 .store_list_pointers

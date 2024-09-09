@@ -330,15 +330,15 @@ FireChargeText:
 	done
 
 CharmanderAndFriendsText:
-	text "Charmander & Friends"
+	text "Tepig & Friends"
 	done
 
 SquirtleAndFriendsText:
-	text "Squirtle & Friends"
+	text "Froakie & Friends"
 	done
 
 BulbasaurAndFriendsText:
-	text "Bulbasaur & Friends"
+	text "Chikorita & Friends"
 	done
 
 PsychicMachampText:
@@ -1050,19 +1050,14 @@ PauseMenuOptionsText:
 	text "Status"
 	line "Diary"
 	line "Deck"
-	line "Card"
+	line "Decklist"
+	line "Read Mail"
 	line "Config"
 	line "Exit"
 	done
 
 DebugPauseMenuOptionsText:
-	text "Status"
-	line "Diary"
-	line "Deck"
-	line "Card"
-	line "Config"
-	line "Debug"
-	line "Close"
+	text ""
 	done
 
 PlayerStatusNameText:
@@ -1934,15 +1929,15 @@ SelectDeckToDuelText:
 	done
 
 CharmanderAndFriendsDeckChoiceText:
-	text "CHARMANDER & Friends Deck"
+	text "Tepig & Friends Deck"
 	done
 
 SquirtleAndFriendsDeckChoiceText:
-	text "SQUIRTLE & Friends Deck"
+	text "Froakie & Friends Deck"
 	done
 
 BulbasaurAndFriendsDeckChoiceText:
-	text "BULBASAUR & Friends Deck"
+	text "Chikorita & Friends Deck"
 	done
 
 SelectDeckToTakeText:

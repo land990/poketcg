@@ -285,9 +285,6 @@ HandleCantAttackSubstatus::
 	ldtx hl, UnableToAttackDueToLeerText
 	cp SUBSTATUS2_LEER
 	jr z, .return_with_cant_attack
-	ldtx hl, UnableToAttackDueToBoneAttackText
-	cp SUBSTATUS2_BONE_ATTACK
-	jr z, .return_with_cant_attack
 	or a
 	ret
 .return_with_cant_attack
@@ -404,6 +401,33 @@ HandleNoDamageOrEffectSubstatus::
 	ld e, NO_DAMAGE_OR_EFFECT_NSHIELD
 	ldtx hl, NoDamageOrEffectDueToNShieldText
 	jr .no_damage_or_effect
+
+.pkmn_power1
+	ld a, [wTempNonTurnDuelistCardID]
+	cp MAGMAR_LV31
+	jr z, .IntimidatingMane
+	or a
+	ret
+.no_damage_or_effect1
+	ld a, e
+	ld [wNoDamageOrEffect], a
+	scf
+	ret
+.IntimidatingMane
+	ld a, [wIsDamageToSelf]
+	or a
+	ret nz
+	; prevent damage if attacked by a non-basic Pokemon
+	ld a, [wTempTurnDuelistCardID]
+	ld e, a
+	ld d, $0
+	call LoadCardDataToBuffer2_FromCardID
+	ld a, [wLoadedCard2Stage]
+	or a ; 
+	ret nz
+	ld e, NO_DAMAGE_OR_EFFECT_NSHIELD
+	ldtx hl, NoDamageOrEffectDueToNShieldText
+	jr .no_damage_or_effect1
 
 ; if the Pokemon being attacked is HAUNTER_LV17, and its Transparency is active,
 ; there is a 50% chance that any damage or effect is prevented
@@ -839,4 +863,25 @@ ClearChangedTypesIfMuk::
 	ld [hli], a
 	dec c
 	jr nz, .zero_changed_types_loop
+	ret
+
+CheckCantRetreatDueToAbility::
+	ld a, MUK
+	call CountPokemonIDInBothPlayAreas
+	ccf
+	ret nc
+	call SwapTurn
+	ld a, DUELVARS_ARENA_CARD
+	call GetTurnDuelistVariable
+	call GetCardIDFromDeckIndex
+	ld a, e
+	cp TENTACRUEL
+	call SwapTurn
+	jr z, .cant_retreat2
+	or a
+	ret 
+
+.cant_retreat2
+	ldtx hl, CantRetreatAbilityText
+	scf
 	ret

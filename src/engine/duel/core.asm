@@ -608,6 +608,7 @@ PlayEnergyCard:
 	ld a, OPPACTION_PLAY_ENERGY
 	call SetOppAction_SerialSendDuelData
 	call PrintAttachedEnergyToPokemon
+	call HandleOnPlayEnergyEffects
 	jp DuelMainInterface
 
 .rain_dance_active
@@ -6226,7 +6227,7 @@ AIMakeDecision:
 .delay_loop
 	call DoFrame
 	ld a, [wVBlankCounter]
-	cp 60
+	cp 30
 	jr c, .delay_loop
 
 .skip_delay
@@ -6512,6 +6513,7 @@ OppAction_PlayEnergyCard:
 	call PrintAttachedEnergyToPokemon
 	ld a, 1
 	ld [wAlreadyPlayedEnergy], a
+	call HandleOnPlayEnergyEffects
 	call DrawDuelMainScene
 	ret
 
@@ -8426,3 +8428,40 @@ DecideLinkDuelVariables:
 	ret
 
 	ret ; stray ret
+
+DisplayCardList_PrintText:
+    push hl
+    push de
+    call InitAndDrawCardListScreenLayout_MenuTypeSelectCheck
+    pop de
+    pop hl
+    call SetCardListHeaderText
+    jp DisplayCardList
+
+InitAndDrawCardListScreenLayout_MenuTypeSelectCheck:
+    call InitAndDrawCardListScreenLayout
+    ld a, SELECT_CHECK
+    ld [wCardListItemSelectionMenuType], a
+    ret	
+
+HandleOnPlayEnergyEffects:
+    ldh a, [hTempPlayAreaLocation_ff9d]
+    add DUELVARS_ARENA_CARD
+    call GetTurnDuelistVariable
+    call GetCardIDFromDeckIndex
+    ld a, e
+    cp DRAGONITE_LV45  ; this is where you put the ID of your card
+    ret nz  ; not Goodra
+    ldh a, [hTempPlayAreaLocation_ff9d]
+    ld e, a
+    call GetCardDamageAndMaxHP
+    or a
+    ret z  ; no damage
+    ld c, 20
+    cp 20
+    jr nc, .skip_cap
+    ld c, a
+.skip_cap
+    ld a, c
+    farcall HealPlayAreaCardHP
+    ret

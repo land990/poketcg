@@ -2022,12 +2022,20 @@ AISelectSpecialAttackParameters:
 	jr z, .DevolutionBeam
 	cp MEWTWO_ALT_LV60
 	jr z, .EnergyAbsorption
-	cp MEWTWO_LV60
-	jr z, .EnergyAbsorption
 	cp EXEGGUTOR
 	jr z, .Teleport
 	cp ELECTRODE_LV35
-	jr z, .EnergySpike
+	jr z, .EnergySpikeLight
+	cp PARAS
+	jr z, .EnergySpikeGrass
+	cp TANGELA_LV12
+	jr z, .EnergySpikeGrass
+	cp PIKACHU_LV12
+	jr z, .EnergySpikeLight
+	cp GROWLITHE
+	jr z, .EnergySpikeFire
+	cp HORSEA
+	jr z, .EnergySpikeWater
 	; fallthrough
 
 .no_carry
@@ -2106,7 +2114,7 @@ AISelectSpecialAttackParameters:
 	scf
 	ret
 
-.EnergySpike
+.EnergySpikeLight
 ; in case selected attack is Energy Spike
 ; decide basic energy card to fetch from Deck.
 	ld a, [wSelectedAttack]
@@ -2115,6 +2123,36 @@ AISelectSpecialAttackParameters:
 
 	ld a, CARD_LOCATION_DECK
 	ld e, LIGHTNING_ENERGY
+
+.EnergySpikeGrass
+; in case selected attack is Energy Spike
+; decide basic energy card to fetch from Deck.
+	ld a, [wSelectedAttack]
+	or a
+	jp z, .no_carry  ; can be jr
+
+	ld a, CARD_LOCATION_DECK
+	ld e, GRASS_ENERGY
+
+.EnergySpikeFire
+; in case selected attack is Energy Spike
+; decide basic energy card to fetch from Deck.
+	ld a, [wSelectedAttack]
+	or a
+	jp z, .no_carry  ; can be jr
+
+	ld a, CARD_LOCATION_DECK
+	ld e, FIRE_ENERGY
+
+.EnergySpikeWater
+; in case selected attack is Energy Spike
+; decide basic energy card to fetch from Deck.
+	ld a, [wSelectedAttack]
+	or a
+	jp z, .no_carry  ; can be jr
+
+	ld a, CARD_LOCATION_DECK
+	ld e, WATER_ENERGY	
 
 ; if none were found in Deck, return carry...
 	call CheckIfAnyCardIDinLocation

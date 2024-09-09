@@ -15,44 +15,44 @@ HandleSpecialAIAttacks:
 	jr z, .NidoranFCallForFamily
 	cp ODDISH
 	jr z, .CallForFamily
-	cp BELLSPROUT
-	jr z, .CallForFamily
-	cp EXEGGUTOR
-	jp z, .Teleport
-	cp SCYTHER
-	jp z, .SwordsDanceAndFocusEnergy
 	cp KRABBY
 	jr z, .CallForFamily
-	cp VAPOREON_LV29
-	jp z, .SwordsDanceAndFocusEnergy
-	cp ELECTRODE_LV42
+	cp PIDGEY
+	jp z, .EnergySpikeFire
+	cp JOLTEON_LV24
 	jp z, .ChainLightning
-	cp MAROWAK_LV26
-	jr z, .CallForFriend
+	cp RHYHORN
+	jp z, .CallForFriend
 	cp MEW_LV23
 	jp z, .DevolutionBeam
 	cp JIGGLYPUFF_LV13
 	jp z, .FriendshipSong
-	cp PORYGON
-	jp z, .Conversion
-	cp MEWTWO_ALT_LV60
+	cp SEEL
+	jp z, .FriendshipSong
+	cp ZAPDOS_LV64
 	jp z, .EnergyAbsorption
-	cp MEWTWO_LV60
-	jp z, .EnergyAbsorption
-	cp NINETALES_LV35
-	jp z, .MixUp
 	cp ZAPDOS_LV68
 	jp z, .BigThunder
 	cp KANGASKHAN
 	jp z, .Fetch
-	cp DUGTRIO
+	cp FLAREON_LV22
+	jp z, .Fetch
+	cp SHELLDER
+	jp z, .Fetch
+	cp MAROWAK_LV32
 	jp z, .Earthquake
 	cp ELECTRODE_LV35
-	jp z, .EnergySpike
-	cp GOLDUCK
-	jp z, .HyperBeam
-	cp DRAGONAIR
-	jp z, .HyperBeam
+	jp z, .EnergySpikeLight
+	cp PARAS
+	jp z, .EnergySpikeGrass
+	cp PIKACHU_LV12
+	jp z, .EnergySpikeLight
+	cp GROWLITHE
+	jp z, .EnergySpikeFire
+	cp HORSEA
+	jp z, .EnergySpikeWater
+	cp VENONAT
+	jp z, .Teleport
 
 ; return zero score.
 .zero_score
@@ -157,21 +157,18 @@ HandleSpecialAIAttacks:
 ; - second attack deals no damage;
 ; if any are true, returns score of $80 + 5.
 .SwordsDanceAndFocusEnergy:
-	ld a, [wAICannotDamage]
-	or a
-	jr nz, .swords_dance_focus_energy_success
-	ld a, SECOND_ATTACK
-	ld [wSelectedAttack], a
-	call CheckIfSelectedAttackIsUnusable
-	jr c, .swords_dance_focus_energy_success
-	ld a, SECOND_ATTACK
-	call EstimateDamage_VersusDefendingCard
-	ld a, [wDamage]
-	or a
-	jp nz, .zero_score
-.swords_dance_focus_energy_success
-	ld a, $85
-	ret
+	ld e, RATTATA
+	ld a, CARD_LOCATION_DECK
+	call CheckIfAnyCardIDinLocation
+	jp c, .found_card
+	ld e, CHARMANDER
+	ld a, CARD_LOCATION_DECK
+	call CheckIfAnyCardIDinLocation
+	jp c, .found_card
+	jp nc, .zero_score
+	.found_card
+	add $80
+	Ret
 
 ; checks player's active card color, then
 ; loops through bench looking for a Pokémon
@@ -259,72 +256,6 @@ HandleSpecialAIAttacks:
 ; otherwise, if it finds an evolution card in hand that
 ; can evolve a card in player's deck, encourage.
 ; if encouraged, returns a score of $80 + 3.
-.MixUp:
-	ld a, DUELVARS_NUMBER_OF_CARDS_IN_HAND
-	call GetNonTurnDuelistVariable
-	or a
-	ret z
-
-	ld a, 3
-	call Random
-	or a
-	jr z, .encourage_mix_up
-	dec a
-	ret z
-	call SwapTurn
-	call CreateHandCardList
-	call SwapTurn
-	or a
-	ret z ; return if no hand cards (again)
-	ld a, DUELVARS_NUMBER_OF_POKEMON_IN_PLAY_AREA
-	call GetNonTurnDuelistVariable
-	cp 3
-	jr nc, .mix_up_check_play_area
-
-	ld hl, wDuelTempList
-	ld b, 0
-.loop_mix_up_hand
-	ld a, [hli]
-	cp $ff
-	jr z, .tally_basic_cards
-	push bc
-	call SwapTurn
-	call LoadCardDataToBuffer2_FromDeckIndex
-	call SwapTurn
-	pop bc
-	ld a, [wLoadedCard2Type]
-	cp TYPE_ENERGY
-	jr nc, .loop_mix_up_hand
-	ld a, [wLoadedCard2Stage]
-	or a
-	jr nz, .loop_mix_up_hand
-	; is a basic Pokémon card
-	inc b
-	jr .loop_mix_up_hand
-.tally_basic_cards
-	ld a, b
-	cp 2
-	jr nc, .encourage_mix_up
-
-; less than 2 basic cards in hand
-.mix_up_check_play_area
-	ld a, DUELVARS_ARENA_CARD
-	call GetNonTurnDuelistVariable
-.loop_mix_up_play_area
-	ld a, [hli]
-	cp $ff
-	jp z, .zero_score
-	push hl
-	call SwapTurn
-	call CheckForEvolutionInList
-	call SwapTurn
-	pop hl
-	jr nc, .loop_mix_up_play_area
-
-.encourage_mix_up
-	ld a, $83
-	ret
-
 ; return score of $80 + 3.
 .BigThunder:
 	ld a, $83
@@ -373,13 +304,35 @@ HandleSpecialAIAttacks:
 
 ; if there's any lightning energy cards in deck,
 ; return a score of $80 + 3.
-.EnergySpike:
+.EnergySpikeLight:
 	ld a, CARD_LOCATION_DECK
 	ld e, LIGHTNING_ENERGY
 	call CheckIfAnyCardIDinLocation
-	jp nc, .zero_score
 	call AIProcessButDontPlayEnergy_SkipEvolution
-	jp nc, .zero_score
+	ld a, $83
+	ret
+
+.EnergySpikeGrass:
+	ld a, CARD_LOCATION_DECK
+	ld e, GRASS_ENERGY
+	call CheckIfAnyCardIDinLocation
+	call AIProcessButDontPlayEnergy_SkipEvolution
+	ld a, $83
+	ret
+
+.EnergySpikeFire:
+	ld a, CARD_LOCATION_DECK
+	ld e, FIRE_ENERGY
+	call CheckIfAnyCardIDinLocation
+	call AIProcessButDontPlayEnergy_SkipEvolution
+	ld a, $83
+	ret
+
+.EnergySpikeWater:
+	ld a, CARD_LOCATION_DECK
+	ld e, WATER_ENERGY
+	call CheckIfAnyCardIDinLocation
+	call AIProcessButDontPlayEnergy_SkipEvolution
 	ld a, $83
 	ret
 

@@ -1,0 +1,140 @@
+Changes:
+se a cambiado los Sprites de los Duelistas Principales por los Sprites de la secuela (Ronald,Sidney, etc.)
+Pokemon Breeder ahora Sera Rare Candy (Same Effect.)
+Se a cambiado el Sprite de Magneton, Porygon 2, Dragalge, Luxio, Centiskorch, Clawitzer, Kingdra, Charjabug, Electrike, Flygon, Emboar, Togetic, Mimikyu, Mew, Larvitar, Hitmonchan, Sliggoo, Goodra, Switch, Pokemon Breeder.
+Se an Cambiado las Palletas de Beautifly, Cascoon, Dustox, Blipug, Omastar, Toxtricity(High), Vikavolt, Kabuto, Braviary, Blitzle, Zeraora, Applin, Shroomish, Goomy
+Tambien hubo unos cambios minimos al Sprite de Emolga, Krookodile, Crobat, Flareon, Luxray, Tyrantrum y Eevee
+
+Flygon Rework:
+New Pokepower: Dusty Defense
+"Your Pokemon with an FIGHT Energy take 10 less Damage from Attacks (After Applying Weakness and Resistance)."
+New Move: Dusty Pillar 2 FIGHT 1 GRASS DMG:30
+This Attack does 20 more damage for Each RETREAT in the defending Pokemon's Retreat Cost.
+
+Dragalge Rework:
+New Pokepower: Poison Barrier
+As long as this is Your Active PKMN,Your opponet's Poisoned PKMN Can't retreat.
+
+Croagunk Rework:
+HP 40 -> HP 30
+Ahora en ves de Prankster tiene Low Kick:
+1 FIGHT DMG:10+
+This Attack does 10 more damage for Each RETREAT in the defending Pokemon's Retreat Cost.
+Y Poison Sting 1 FIGHT 1 COLORLESS DMG: 10
+Flip a Coin. If Heads, the Defending Pokemon is now Poisoned.
+
+Toxicroak:
+En Ves de Low Kick ahora tine Low Sweep:
+1 FIGHT 1 COLORLESS DMG: 10+
+This Attack does 20 more damage for Each RETREAT in the defending Pokemon's Retreat Cost.
+Toxic ahora en ves de 30 de daño ahora hace 20
+
+Dewgong Rework:
+Ahora tiene como debilidad FIGHTING y resiste WATER
+Ahora sus movimientos son Ice Beam y Crushing Ice:
+2 WATER 2 COLORLESS DMG: 40+
+his Attack does 10 more damage for Each RETREAT in the defending Pokemon's Retreat Cost.
+
+Drednaw Rework:
+Ahora tiene 2 Ataques nuevos Vise Bite y Jaw Lock:
+
+Vise Bite:
+2 WATER 1 FIGHTING DMG: 20+
+This Attack does 20 more damage for Each RETREAT in the defending Pokemon's Retreat Cost.
+Jaw Lock:
+2 WATER 1 FIGHTING DMG: 50
+Flip a Coin, If heads, the Defending Pokemon can't Retreat during your opponent's Nex Turn.
+
+Sandaconda Rework:
+New PokePower: Sandpit
+"When you play this PKMN from your hand you may Discard 3 cards from the top of your oppponent's Deck."
+and a New attack "Big Sand Cannon"
+2 FIGHTING 2 COLORLESS
+"After attacking, Discard the Top 3 cards from Your Opponent's Deck."
+
+Magnemite Line Changes:
+Magneton ThunderWave ahora hace 20 de daño en vez de 30
+Ahora tiene un nuevo ataque en lugar de SelfDestruct, "Magnetic Release"
+2 LIGHTNING 1 COLORLESS DMG: 20+
+"Does damage plus 10 more damage for each Energy card attached to the Defending Pokémon."
+
+Magnezone Rework:
+New Pokepower: "Magnetic Circuit"
+"Once During your Turn, you may put 1 Damage counter on your active PKMN and Attach a <LIGHTNING> Energy From your Discard pile to it."
+Y ahora tiene "Thunder" como segundo ataque.
+
+Omastar Rework:
+Retreat Cost 1 -> 2
+New Pokepower: "Primal Guidance"
+"When you play this PKMN from your hand, If there are any cards in your discard pile, choose 1 of them and add it to your hand."
+Su segundo ataque ahora es "Time Spiral" con el efecto de Devolution Beam.
+
+Shinx Line Changes:
+Luxio ahora como Segundo ataque tiene "Thunder Fang"
+El ataque de Luxray ahora es "Energy Crush"
+2 LIGHTNING 1 COLORLESS DMG: 30+
+"Does damage plus 10 more damage for each Energy card attached to the Defending Pokémon."
+
+Elektrike Line Changes:
+Elektrike ahora tiene Fetch y Thunder fang como sus atackes
+Manectric Chain Reaction ahora hace 30 de daño en vez de 20.
+
+Tynemo Line Changes:
+Eelektrik ahora tiene el PokePower "Ad Hoc Shock"
+"When you play this Pokémon from your hand, you may flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."
+
+Eelektross ahora tiene Thunder Fang como su Primer ataque y "Electrical Rend" como su segundo
+4 LIGHTNING DMG: 40+
+"This Attack does 30 more damage if the Defending PKMN is Affected By a Status Condition."
+
+Horsea Line Changes:
+Horsea now has Energy Boost instead of Water Gun y su Retreat Cost es de 1
+Seadra Ahora tiene Wildfire como su segundo ataque 1 FIRE 1 COLORLESS DMG: 30
+
+Kingdra Ahora como Segundo Ataque tiene Aqua Stream:
+2 FIRE 2 WATER DMG: 30+
+Put up to 2 basic Energies from your Discard pile to your Hand. this attack does 20 more damage for Each card returned this way.
+
+Rowlet Line Changes
+Dartrix Shootrough now deals 30 instead of 20
+Decidueye Shootrough ahora se Llama "Hunting Arrow" y ahora inflige 20 de daño por effecto en ves de 10.
+
+Accelgor ahora como primer ataque tiene Dark Mist:
+1 GRASS DMG: 10
+"Flip a Coin. If Heads, the Defending PKMN is Now Poisoned; If tails,it is now Paralyzed.
+Y su Segundo ataque ahora se llama "Ninja Tornado"
+
+Sandile Line Changes:
+Krokorok ahora tiene "Dredge Up" como se segundo ataque
+2 FIGHTING 1 COLORLESS DMG: 30
+"After attacking, Discard the Top 3 cards from Your Opponent's Deck."
+
+Krookodile ahora tiene "Obsidian Fangs"
+2 FIGHTING 1 PSYCHIC DMG: 20+
+"Does damage plus 10 more damage for each damage counter on the Defending Pokémon."
+
+Kabutops ahora tiene el PokePower "Primal Aura"
+"When you play this PKMN from your hand, your opponent cannot play any trainer cards during their Next Turn"
+Y ahora su segundo ataque se llama "Parabolic Charge".
+
+Tsareena Attract Ahora confunde despues de cambiar despues de sacar heads
+Vikavolt Electro Cannon ahora Hace 120 de daño en vez de 100 y paraliza al sacar Cara.
+Toxtricity High and Low now has Punk Rock como su segundo movimiento que puede Envenenar o Paralyzar al opponente si sacas cara o cruz
+Emolga ahora tiene NUZZLE como su segundo ataque
+1 LIGHTNING, 1 COLORLESS DMG: 20 50% to paralyze your opponent.
+Zigzagoon Pin Misile ahora solo lanza 3 monedas en ves de 4
+Basculegion ahora tiene Last Respects:
+1 WATER 1 Psychic 20+
+"This Attack does 10 more damage for each PKMN in your Discard Pile. (Up to 5)".
+Regidrago Dragon Impact ahora se Llama Dragon Energy, hace 80- y tiene el efecto de "Eruption"Ho-Oh ahora tiene Revival Blessing como su primer ataque y Rainbow Burn como su segundo.
+
+Bayleaf Sleep Powder ahora hace 20 de daño en vez de 10 y cuesta 1 de Grass Energy mas. Ademas, ahora en vez de Vine Whip ahora tine Absorb con el mismo coste y daño.
+Escavalier Horn Drill ahora se Llama "Iron Tackle"
+Los Ataques de Applin fueron intercambiados junto con sus costos
+Helioptile Parabolic Charge ahora cura la misma cantidad que el daño inflijido con este
+Electabuzz Thunderpunch ahora cuesta 1 LIGHTNING energy mas
+copperajah High Horsepower Ahora hace 70 de daño en vez de 50
+Zebstria ahora tiene "Disconnect" como su primer ataque con el effecto de "Knock Off"
+Porygon Z ahora tiene "Downgrading Beam" con el efecto de Devolution Beam.
+
+Imposter Oak ahora hace robar 4 cartas en vez de 7 al opponente

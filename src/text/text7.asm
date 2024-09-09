@@ -382,25 +382,25 @@ Text060e:
 
 Text060f:
 	text "Hey! Kid!"
-	line "I've got a <Lv>20 Electabuzz,"
+	line "I've got a <Lv>35 Electabuzz,"
 	line "but what I really want is"
-	line "a <Lv>35 Electabuzz!"
+	line "a <Lv>20 Electrike!"
 	line "Hey! Kid! Do you have a"
 	line ""
-	text "<Lv>35 Electabuzz?"
+	text "<Lv>20 Electrike?"
 	done
 
 Text0610:
 	text "Hey! Kid!"
 	line "We meet again!"
-	line "Do you have a <Lv>35 Electabuzz?"
+	line "Do you have a <Lv>20 Electrike?"
 	line "Come on! Trade it for my"
 	line ""
-	text "<Lv>20 Electabuzz!"
+	text "<Lv>35 Electabuzz!"
 	done
 
 Text0611:
-	text "Trade your <Lv>35 Electabuzz?"
+	text "Trade your <Lv>20 Electrike?"
 	done
 
 Text0612:
@@ -413,14 +413,14 @@ Text0612:
 Text0613:
 	text "Hey, kid!"
 	line "It's not cool to lie!"
-	line "You don't own a <Lv>35 Electabuzz!"
+	line "You don't own a <Lv>20 Electrike!"
 	line "You could get hurt lying to me, kid!"
 	done
 
 Text0614:
 	text "You're gonna trade me your"
 	line ""
-	text "<Lv>35 Electabuzz?"
+	text "<Lv>20 Electrike?"
 	line "Way cool!...Hey! Wait, kid!"
 	line "That card's in your Deck!"
 	line "It isn't cool to take that card!"
@@ -432,10 +432,10 @@ Text0614:
 Text0615:
 	text "You're gonna trade me your"
 	line ""
-	text "<Lv>35 Electabuzz? Way cool, kid!"
+	text "<Lv>20 Electrike? Way cool, kid!"
 	line "OK, I'll trade you my"
 	line ""
-	text "<Lv>20 Electabuzz for it!"
+	text "<Lv>35 Electabuzz for it!"
 	done
 
 Text0616:
@@ -445,8 +445,8 @@ Text0616:
 
 Text0617:
 	text "Whoa! Cool, kid! Thanks for "
-	line "that <Lv>35 Electabuzz! "
-	line "My <Lv>20 Electabuzz is a cool card!"
+	line "that <Lv>20 Electabuzz! "
+	line "My <Lv>35 Electabuzz is a cool card!"
 	line "Charge it up with Electabuzz!"
 	done
 
@@ -473,11 +473,11 @@ Text061a:
 	done
 
 Text061b:
-	text "Isn't Pikachu totally cute?"
+	text "Isn't Blitzle totally cute?"
 	line "My heart skips a beat whenever"
 	line "I see those cute little eyes!"
 	line "Hey, do you want to duel my "
-	line "Pikachu Deck?"
+	line "Blitzle Deck?"
 	done
 
 Text061c:
@@ -486,7 +486,7 @@ Text061c:
 
 Text061d:
 	text "Awww! Doesn't anyone want to play"
-	line "with my Pikachu Deck...?"
+	line "with my Blitzle Deck...?"
 	done
 
 Text061e:
@@ -494,7 +494,7 @@ Text061e:
 	done
 
 Text061f:
-	text "Awww! My Pikachu lost!"
+	text "Awww! My Blitzle lost!"
 	done
 
 Text0620:
@@ -503,7 +503,7 @@ Text0620:
 	done
 
 Text0621:
-	text "My Pikachu's not only cute"
+	text "My Blitzle's not only cute"
 	line "but strong, too!"
 	done
 
@@ -768,7 +768,7 @@ Text064b:
 	line "Come on, let's duel!"
 	line "We'll play with 6 Prizes!"
 	line "If you win, I'll give you a really"
-	line "rare card!"
+	line "Good card!"
 	done
 
 Text064c:
@@ -802,7 +802,7 @@ Text0650:
 	line "I'll see how much better"
 	line "you've gotten!"
 	line "If you win, I'll give you "
-	line "another rare card!"
+	line "another Good card!"
 	line "Come on!!! Let's Duel!"
 	line "We'll play with 6 Prizes!"
 	done
@@ -916,7 +916,7 @@ Text0660:
 	line "Did you defeat Murray!?!"
 	line "I feel so much better!"
 	line "Here, let me give you this"
-	line "Mewtwo card!"
+	line "Orbeetle card!"
 	done
 
 Text0661:
@@ -924,7 +924,7 @@ Text0661:
 	line "Did you defeat Murray!?!"
 	line "I feel so much better!"
 	line "Here, let me give you this"
-	line "Mewtwo card."
+	line "Orbeetle card!"
 	done
 
 Text0662:

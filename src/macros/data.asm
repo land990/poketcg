@@ -96,7 +96,7 @@ ENDM
 ; idx-[direction] means the index to get when the input is in the direction.
 ; its attribute is used for drawing a flipped cursor.
 MACRO cursor_transition
-	db \1, \2, \3
+	db \1, \2, \1
 	REPT 4
 		db \4
 		SHIFT

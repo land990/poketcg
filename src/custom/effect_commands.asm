@@ -1,0 +1,7 @@
+FrogadierCallForFamilyEffectCommands:
+	dbw EFFECTCMDTYPE_INITIAL_EFFECT_1, BellsproutCallForrFamily_CheckDeckAndPlayArea
+	dbw EFFECTCMDTYPE_AFTER_DAMAGE, BellsproutCallForrFamily_PutInPlayAreaEffect
+	dbw EFFECTCMDTYPE_REQUIRE_SELECTION, BellsproutCallForrFamily_PlayerSelectEffect
+	dbw EFFECTCMDTYPE_AI_SELECTION, BellsproutCallForrFamily_AISelectEffect
+	db  $00
+    

@@ -127,7 +127,7 @@ Script_BeatNikki:
 	record_master_win $05
 	print_npc_text Text0721
 .ows_e7eb
-	give_booster_packs BOOSTER_LABORATORY_NEUTRAL, BOOSTER_LABORATORY_NEUTRAL, NO_BOOSTER
+	give_booster_packs BOOSTER_EVOLUTION_GRASS, BOOSTER_LABORATORY_GRASS, BOOSTER_LABORATORY_NEUTRAL, NO_BOOSTER
 	script_jump Script_LostToNikki.ows_e7f3
 
 Script_LostToNikki:

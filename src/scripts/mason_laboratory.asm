@@ -1,8 +1,8 @@
 Script_BeginGame:
 	start_script
-	do_frames 60
+	do_frames 20
 	walk_player_to_mason_lab
-	do_frames 120
+	do_frames 20
 	enter_map $02, MASON_LABORATORY, 14, 26, NORTH
 	quit_script_fully
 
@@ -212,7 +212,7 @@ Script_BeatSam:
 	jump_if_event_equal EVENT_MASON_LAB_STATE, MASON_LAB_IN_PRACTICE_DUEL, Script_EnterLabFirstTime.ows_d82d
 	jump_if_event_equal EVENT_SAM_MENU_CHOICE, SAM_MENU_PRACTICE_DUEL, Script_LostToSam.ows_d6ad
 	print_npc_text Text05d1
-	give_booster_packs BOOSTER_ENERGY_RANDOM, NO_BOOSTER, NO_BOOSTER
+	give_booster_packs BOOSTER_ENERGY_RANDOM, BOOSTER_ENERGY_RANDOM, NO_BOOSTER
 	print_text_quit_fully Text05d2
 
 Script_LostToSam:
@@ -323,8 +323,46 @@ Script_EnterLabFirstTime:
 	move_player NORTH, 2
 	move_player NORTH, 2
 	move_player NORTH, 2
-	print_npc_text Text05e3
+
+;	print_npc_text Text05f0 ; SKIP PRACTICE DUEL START
+;	close_text_box
+;	print_text Text05f1
+;	close_text_box
+;	print_npc_text Text05f2
+;.starter_loop
+;	choose_starter_deck
+;	close_text_box
+;	ask_question_jump Text05f3, .finish_intro
+;	script_jump .starter_loop
+;.finish_intro
+;	print_npc_text Text05f4
+;	close_text_box
+;	pause_song
+;	play_song MUSIC_BOOSTER_PACK
+;	print_text Text05f5
+;	wait_for_song_to_finish
+;	resume_song
+;	close_text_box
+;	set_event EVENT_MASON_LAB_STATE, MASON_LAB_RECEIVED_STARTER_DECK
+;	give_stater_deck
+;	print_npc_text Text05f6
+;	save_game 0
+;	quit_script_fully ; SKIP PRACTICE DUEL END
+
+	print_npc_text NewIntroText1
 	close_advanced_text_box
+	move_npc NPC_SAM, NPCMovement_d880
+	ask_question_jump NewIntroText2, .accepted_practice_game
+	
+	; declined practice game
+	print_npc_text NewIntroText3
+	close_advanced_text_box
+	move_npc NPC_SAM, NPCMovement_d882
+	script_jump Script_AfterPracticeDuel.building_the_starter_deck
+	end_script
+	ret
+
+.accepted_practice_game
 	set_next_npc_and_script NPC_SAM, .ows_d779
 	end_script
 	ret
@@ -440,6 +478,7 @@ Script_AfterPracticeDuel:
 	move_player EAST, 1
 	move_player EAST, 1
 	set_player_direction NORTH
+.building_the_starter_deck
 	print_npc_text Text05f0
 	close_text_box
 	print_text Text05f1
